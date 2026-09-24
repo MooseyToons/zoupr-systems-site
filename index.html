@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Zoupr Systems — Live Progress</title>
+<link rel="icon" type="image/png" href="/assets/z-logo.png" />
 <style>
 :root{
   --bg:#05070b;
@@ -35,12 +36,8 @@ nav{
   border-bottom:1px solid rgba(255,255,255,.06);
 }
 .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em}
-.logo{
-  width:38px;height:38px;border-radius:10px;
-  display:grid;place-items:center;font-weight:900;font-size:20px;
-  color:#00101f;background:linear-gradient(135deg,#e06a76,#7a1422);
-  box-shadow:0 0 28px rgba(143,31,45,.38);
-}
+.logo{width:42px;height:42px;display:grid;place-items:center;filter:drop-shadow(0 0 10px rgba(214,90,104,.45))}
+.logo img{width:100%;height:100%;object-fit:contain;display:block}
 .navlinks{display:flex;gap:22px;color:var(--muted);font-size:14px}
 .hero{padding:74px 0 38px}
 .eyebrow{
@@ -138,7 +135,7 @@ footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.0
 <body>
 <div class="wrap">
   <nav>
-    <div class="brand"><div class="logo">Z</div> ZOUPR SYSTEMS</div>
+    <div class="brand"><div class="logo"><img src="/assets/z-logo.png" alt="Zoupr Systems"></div> ZOUPR SYSTEMS</div>
     <div class="navlinks">
       <a href="#performance">Performance</a><a href="#current-version">Current Version</a><a href="#activity">Activity</a><a href="#future">Roadmap</a><a href="#version-history">Version History</a><a href="#community">Discord</a>
     </div>
