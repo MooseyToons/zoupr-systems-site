@@ -1,0 +1,51 @@
+name: Apply Z logo
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-z-logo.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch site logo and favicon
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          favicon = '<link rel="icon" type="image/png" href="/assets/z-logo.png" />'
+          if favicon not in s:
+              s = s.replace('<title>Zoupr Systems — Live Progress</title>', '<title>Zoupr Systems — Live Progress</title>\n' + favicon)
+
+          s = re.sub(
+              r'\.logo\{.*?\}',
+              '.logo{width:42px;height:42px;display:grid;place-items:center;filter:drop-shadow(0 0 10px rgba(214,90,104,.45))}\n.logo img{width:100%;height:100%;object-fit:contain;display:block}',
+              s,
+              count=1,
+              flags=re.S,
+          )
+
+          s = s.replace(
+              '<div class="brand"><div class="logo">Z</div> ZOUPR SYSTEMS</div>',
+              '<div class="brand"><div class="logo"><img src="/assets/z-logo.png" alt="Zoupr Systems"></div> ZOUPR SYSTEMS</div>'
+          )
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit site update
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m 'Use Zoupr Z logo on site and favicon'
+          git push
