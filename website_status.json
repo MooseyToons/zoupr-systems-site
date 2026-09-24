@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "updated_at_utc": "2026-09-24T12:27:12.317847+00:00",
+  "bot_version": "40.7.10",
+  "build_label": "V40.7.10 Candidate",
+  "mode": "paper",
+  "paper_only": true,
+  "profitability_validated": false,
+  "state": "running",
+  "status_text": "Active paper test",
+  "test": 1,
+  "test_limit": "continuous",
+  "completed_tests": 0,
+  "trades": 2,
+  "wins": 2,
+  "losses": 0,
+  "pnl_sol": 0.009812666920205423,
+  "open_positions": 0,
+  "feed_ok": true,
+  "latest_change": "continuation confirmation floor raised to 2.0 seconds because sub-2s matched entries were 0W/6L (-0.01444 SOL)",
+  "source": "Zoupr Systems local paper runner"
+}
