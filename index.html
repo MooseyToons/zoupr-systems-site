@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zoupr Systems — Live Progress</title>
+<style>
+:root{
+  --bg:#05070b;
+  --panel:#0b1018;
+  --panel2:#0e1520;
+  --text:#f4f7fb;
+  --muted:#8f9bad;
+  --line:#1c2735;
+  --accent:#8f1f2d;
+  --accent2:#d65a68;
+  --good:#46d98f;
+  --bad:#ff6b6b;
+  --warn:#ffc857;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(143,31,45,.18), transparent 30%),
+    radial-gradient(circle at 90% 10%, rgba(143,31,45,.12), transparent 25%),
+    var(--bg);
+  color:var(--text);
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:auto;padding:0 20px 60px}
+nav{
+  height:76px;display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em}
+.logo{
+  width:38px;height:38px;border-radius:10px;
+  display:grid;place-items:center;font-weight:900;font-size:20px;
+  color:#00101f;background:linear-gradient(135deg,#e06a76,#7a1422);
+  box-shadow:0 0 28px rgba(143,31,45,.38);
+}
+.navlinks{display:flex;gap:22px;color:var(--muted);font-size:14px}
+.hero{padding:74px 0 38px}
+.eyebrow{
+  color:var(--accent2);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  margin-bottom:14px;
+}
+h1{font-size:clamp(42px,7vw,78px);line-height:.98;margin:0 0 18px;letter-spacing:-.045em}
+.hero p{max-width:680px;color:var(--muted);font-size:18px;line-height:1.6;margin:0}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.badge{
+  padding:9px 12px;border:1px solid var(--line);border-radius:999px;
+  background:rgba(255,255,255,.02);font-size:13px;color:#c8d1dc;
+}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{
+  background:linear-gradient(180deg,rgba(15,22,32,.97),rgba(8,13,20,.97));
+  border:1px solid var(--line);border-radius:18px;padding:20px;
+  box-shadow:0 12px 40px rgba(0,0,0,.22);
+}
+.span4{grid-column:span 4}.span5{grid-column:span 5}.span7{grid-column:span 7}.span12{grid-column:span 12}
+.label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+.big{font-size:34px;font-weight:800;margin-top:8px}
+.good{color:var(--good)} .bad{color:var(--bad)}
+.status{display:flex;align-items:center;gap:9px;margin-top:10px;font-weight:700}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 16px rgba(70,217,143,.9)}
+.sub{color:var(--muted);font-size:13px;margin-top:8px}
+.section-title{font-size:24px;margin:38px 0 14px}
+.progress{
+  height:10px;border-radius:999px;background:#111a25;border:1px solid #1c2a3a;overflow:hidden;margin-top:14px
+}
+.progress span{display:block;height:100%;width:68%;background:linear-gradient(90deg,var(--accent),var(--accent2));box-shadow:0 0 20px rgba(143,31,45,.42)}
+.log{margin-top:14px;display:flex;flex-direction:column}
+.log-row{
+  display:grid;grid-template-columns:82px 110px 1fr 110px;gap:12px;
+  padding:13px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:14px
+}
+.log-row:last-child{border-bottom:0}
+.time,.muted{color:var(--muted)}
+.pill{width:max-content;padding:5px 8px;border-radius:7px;font-size:11px;font-weight:800;letter-spacing:.06em}
+.buy{background:rgba(70,217,143,.12);color:var(--good)}
+.sell{background:rgba(255,107,107,.11);color:#ff8f8f}
+.chart{height:220px;margin-top:18px;position:relative;overflow:hidden;border-radius:12px;background:
+ linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+ linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+ background-size:44px 44px}
+svg{position:absolute;inset:0;width:100%;height:100%}
+.roadmap{display:grid;gap:12px;margin-top:12px}
+.road{
+  padding:14px;border:1px solid #352027;border-radius:12px;background:#12090c;display:flex;justify-content:space-between;gap:16px
+}
+.road strong{font-size:14px}
+.road span{font-size:12px;color:var(--muted)}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid rgba(255,255,255,.06);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.cta{
+  display:inline-flex;align-items:center;gap:8px;margin-top:20px;padding:12px 16px;border-radius:10px;
+  border:1px solid #5a1d27;background:#1a0b0f;color:#f7d9dd;font-weight:700
+}
+.note{font-size:12px;color:#718095;line-height:1.5;margin-top:14px}
+@media(max-width:800px){
+  .span4,.span5,.span7{grid-column:span 12}
+  .navlinks{display:none}
+  .hero{padding-top:48px}
+  .log-row{grid-template-columns:68px 90px 1fr}
+  .log-row .pnl{display:none}
+}
+.menu-card{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.menu-links{display:flex;gap:10px;flex-wrap:wrap}
+.menu-links a{padding:10px 12px;border-radius:10px;border:1px solid #3a2025;background:#12090c;color:#d8c5c8;font-size:13px;font-weight:700}
+.version-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.version-tag{padding:7px 10px;border-radius:8px;background:rgba(143,31,45,.16);border:1px solid rgba(143,31,45,.35);color:#e9a3aa;font-size:12px;font-weight:800}
+.change-list{display:grid;gap:10px;margin-top:16px}
+.change{border:1px solid #352027;background:#12090c;border-radius:12px;padding:14px}
+.change strong{display:block;font-size:14px;margin-bottom:5px}
+.change p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+.history{display:grid;gap:12px;margin-top:14px}
+.history-item{display:grid;grid-template-columns:100px 1fr 120px;gap:16px;align-items:start;padding:16px;border:1px solid #3a2027;border-radius:14px;background:#12090c}
+.history-ver{font-weight:900;color:#f7d9dd}
+.history-item h3{margin:0 0 5px;font-size:15px}
+.history-item p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+.history-status{font-size:12px;color:#8ea1b5;text-align:right}
+.discord-box{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
+.discord-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:10px;border:1px solid #6d2631;background:#1f0d12;color:#fae7e9;font-weight:800}
+.disclaimer{margin-top:12px;padding:12px 14px;border-left:3px solid #5e2029;background:#091019;color:#8fa0b3;font-size:12px;line-height:1.5}
+@media(max-width:800px){.history-item{grid-template-columns:1fr}.history-status{text-align:left}}
+.goal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+.goal-card{padding:16px;border-radius:14px;border:1px solid #3a2027;background:#12090c}
+.goal-card .goal-num{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#c98790;font-weight:800}
+.goal-card h3{font-size:16px;margin:8px 0 7px}
+.goal-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.55}
+.goal-current{border-color:#6b2833}
+.future-note{margin-top:16px;padding:14px;border-radius:12px;background:#160b0e;border:1px solid #462029;color:#b9a3a8;font-size:12px;line-height:1.55}
+@media(max-width:800px){.goal-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <div class="brand"><div class="logo">Z</div> ZOUPR SYSTEMS</div>
+    <div class="navlinks">
+      <a href="#performance">Performance</a><a href="#current-version">Current Version</a><a href="#activity">Activity</a><a href="#future">Roadmap</a><a href="#version-history">Version History</a><a href="#community">Discord</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="eyebrow">Live Development Dashboard</div>
+    <h1>Building the bot.<br>Tracking everything.</h1>
+    <p>Zoupr Systems is developing an automated market-scanning and execution system. This site tracks development progress, paper-trading results, live testing activity, and performance as the system evolves.</p>
+    <div class="badges"><div class="badge">Python Powered</div><div class="badge">Paper Mode</div><div class="badge">Private Development</div><div class="badge">Live Progress Tracking</div></div>
+  </section>
+  <section class="card menu-card" style="margin-bottom:16px"><div><div class="label">Quick Menu</div><div class="sub">Jump around the Zoupr Systems development dashboard.</div></div><div class="menu-links"><a href="#performance">Performance</a><a href="#current-version">Current Build</a><a href="#activity">Bot Activity</a><a href="#future">Future Goals</a><a href="#version-history">Version History</a><a href="#community">Community</a></div></section>
+  <section class="grid" id="performance">
+    <div class="card span4"><div class="label">Bot Status</div><div class="status" id="bot-status"><span class="dot"></span> Forward Test Pending</div><div class="sub" id="bot-status-sub">Waiting for the next verified paper run.</div></div>
+    <div class="card span4"><div class="label">Paper Balance</div><div class="big">PAPER ONLY</div><div class="sub">No real-money balance is published.</div></div>
+    <div class="card span4"><div class="label">Win Rate</div><div class="big" id="win-rate">0 / 7</div><div class="sub" id="latest-result">Latest completed batch: 0W/7L • -0.02051 SOL</div></div>
+    <div class="card span7"><div class="label">Historical Paper Context</div><div class="chart"><svg viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8f1f2d" stop-opacity=".34"/><stop offset="100%" stop-color="#8f1f2d" stop-opacity="0"/></linearGradient></defs><path d="M0 175 C90 168,120 188,190 160 S300 120,360 138 S450 110,520 126 S630 70,690 90 S780 52,850 70 S930 24,1000 38 L1000 220 L0 220 Z" fill="url(#fill)"/><path d="M0 175 C90 168,120 188,190 160 S300 120,360 138 S450 110,520 126 S630 70,690 90 S780 52,850 70 S930 24,1000 38" fill="none" stroke="#c44b5a" stroke-width="4"/></svg></div><div class="note">Latest V40.7.8 batch: 7 trades, 0W/7L, -0.02051 SOL. Earlier V40.7.0 batch: 10 trades, 6W/4L, +0.01164 SOL. Neither validates profitability.</div></div>
+    <div class="card span5" id="roadmap"><div class="label">Build Progress</div><div class="big">Research</div><div class="progress"><span></span></div><div class="roadmap"><div class="road"><strong>Market scanner</strong><span>Working</span></div><div class="road"><strong>Entry logic</strong><span>Testing</span></div><div class="road"><strong>Exit logic</strong><span>Fine tuning</span></div><div class="road"><strong>Live deployment</strong><span>Not yet</span></div></div></div>
+  </section>
+  <h2 class="section-title" id="current-version">Current Version</h2>
+  <section class="card"><div class="version-head"><div><div class="label">Development Build</div><div class="big" id="build-version">Bot V40.7.9 Candidate</div><div class="sub" id="build-sub">Current paper-research candidate. Forward validation is pending. Website build: V3.2.</div></div><div class="version-tag">CURRENT BUILD</div></div><div class="change-list"><div class="change"><strong>What changed from the previous version</strong><p>V40.7.9 adds cross-version evidence so one ugly market window cannot permanently blacklist a zone that has also produced winners. Gaming-safe preflight now refuses to launch when the PC is already under heavy memory pressure.</p></div><div class="change"><strong>What we're trying to improve</strong><p>Improve trade quality without overfitting: compare evidence across versions, preserve resource safety, and require forward paper validation before strategy promotion.</p></div><div class="change"><strong>What we're watching in testing</strong><p>Forward paper P&L, entry-zone behavior, runner exits, accounting accuracy, stability, and whether changes hold up across multiple market windows.</p></div></div><div class="disclaimer">Strategy logic, source code, private thresholds, and execution rules are intentionally not published. Public notes only describe development goals and observed behavior.</div></section>
+  <h2 class="section-title" id="activity">Recent Bot Activity</h2>
+  <section class="card"><div class="label">Latest Events</div><div class="log"><div class="log-row"><span class="time">09/24</span><span class="pill buy">BUILD</span><span>V40.7.9 candidate created from V40.7.8</span><span class="pnl muted">Paper</span></div><div class="log-row"><span class="time">09/24</span><span class="pill buy">DATA</span><span>Cross-version evidence expanded to 46 matched rows</span><span class="pnl muted">46 rows</span></div><div class="log-row"><span class="time">09/24</span><span class="pill sell">GATE</span><span>Gaming preflight blocked a run at 95% RAM usage</span><span class="pnl muted">Protected</span></div><div class="log-row"><span class="time">09/24</span><span class="pill sell">RESULT</span><span>Latest completed V40.7.8 batch: 0W/7L</span><span class="pnl bad">-0.02051</span></div></div></section>
+  <h2 class="section-title" id="future">Where Zoupr Systems Is Headed</h2>
+  <section class="card"><div class="label">Current State → Long-Term Goal</div><div class="big" style="font-size:28px">Paper first. Real markets later.</div><div class="sub" style="max-width:850px;line-height:1.6">Zoupr Systems is currently being developed and tested in paper mode. The purpose of paper testing is to validate the system, improve reliability, and measure performance before risking real capital.</div><div class="goal-grid"><div class="goal-card goal-current"><div class="goal-num">Stage 01 • Current</div><h3>Paper Trading</h3><p>Run the bot against real market data while using simulated balances and simulated execution so changes can be tested without risking funds.</p></div><div class="goal-card"><div class="goal-num">Stage 02 • Intended</div><h3>Real Solana Memecoin Trading</h3><p>The intended next major step is controlled live execution on Solana memecoins once the paper system is stable enough to justify risking real capital.</p></div><div class="goal-card"><div class="goal-num">Stage 03 • Long Term</div><h3>Automated Nasdaq Strategies</h3><p>A longer-term goal is to expand Zoupr Systems into automated Nasdaq-market strategies, with separate logic and testing built specifically for traditional markets.</p></div></div><div class="future-note">These are development goals, not promises of profitability or launch dates. Live trading would only be considered after testing, risk controls, execution reliability, and performance are strong enough to justify the move.</div></section>
+  <h2 class="section-title" id="version-history">Version History</h2>
+  <section class="card"><div class="label">Public Development Log</div><div class="sub">High-level notes only. Private code and trading logic stay private. Only builds with confirmed public-safe notes are listed individually.</div><div class="history"><div class="history-item"><div class="history-ver">V40.7.9</div><div><h3>Cross-version evidence candidate</h3><p>Current candidate. Combines matched evidence from newer losing batches and older winning batches, keeps bounded champion/challenger logic, and adds a hard gaming-resource preflight before paper runs.</p></div><div class="history-status">Current</div></div><div class="history-item"><div class="history-ver">V40.7.2</div><div><h3>12-test self-tuning build</h3><p>Added a repeated paper-testing loop that analyzes results, adjusts policy within limits, and promotes or rolls back challengers based on validation. Passed 122/122 local tests.</p></div><div class="history-status">Paper Only</div></div><div class="history-item"><div class="history-ver">V40.7.0</div><div><h3>HOTBASE rebase</h3><p>Rebased the newer testing work onto the older V40.5.3 engine. Passed 107/107 local tests; one five-test batch produced 10 trades, 6 wins, 4 losses, and +0.01164 SOL in paper mode.</p></div><div class="history-status">Archived</div></div><div class="history-item"><div class="history-ver">V40.4.1</div><div><h3>Paper-run reliability checkpoint</h3><p>Feed reliability held up with no listed feed errors, but the aggregate result was still negative: 29 trades, 6 wins, 23 losses, and -0.065345 SOL. The build remained paper-only.</p></div><div class="history-status">Archived</div></div><div class="history-item"><div class="history-ver">V40.3</div><div><h3>Entry-flow reconstruction</h3><p>Fixed an entry timing choke, restored guarded continuation behavior, and passed 59/59 local tests plus large randomized and reserve/quote fuzz suites before moving back into forward paper validation.</p></div><div class="history-status">Archived</div></div><div class="history-item"><div class="history-ver">V40.2</div><div><h3>Validation and reliability pass</h3><p>Focused on safer test behavior, cleaner trade accounting, bad-data handling, duplicate-action protection, reserves, stale samples, and stronger logging.</p></div><div class="history-status">Archived</div></div><div class="history-item"><div class="history-ver">V40.1</div><div><h3>Preflight-hardened baseline</h3><p>Fixed lane handling, loss-streak display, float-noise sampling, and stale text. Passed 20/20 functional checks plus large scoring/lane and quote-fuzz test batches.</p></div><div class="history-status">Archived</div></div><div class="history-item"><div class="history-ver">V40</div><div><h3>Core V40 development baseline</h3><p>Established the main paper-testing and debugging branch used for entries, exits, logging, P&L validation, and later V40.x development.</p></div><div class="history-status">Legacy</div></div></div></section>
+  <h2 class="section-title" id="community">Community</h2>
+  <section class="card discord-box"><div><div class="label">Ego Chall The World</div><div class="big" style="font-size:28px">Follow the build on Discord</div><div class="sub">Bot updates, paper-test results, development notes, version changes, and community discussion.</div></div><a class="discord-btn" href="https://discord.gg/yEB4RwG9V2" target="_blank" rel="noopener noreferrer">Join Discord →</a></section>
+  <section class="hero" style="padding-bottom:0"><div class="eyebrow">Not a trading platform</div><h2 style="font-size:42px;margin:0 0 12px;letter-spacing:-.03em">Built in public. Released when it's ready.</h2><p>The current site is for development tracking and performance transparency only. It does not accept trades, connect visitors to brokerage accounts, or expose private strategy logic. If Zoupr Systems moves into live trading or releases access publicly, that would be handled separately from this progress-tracking site.</p><a class="cta" href="#performance">View current progress →</a></section>
+  <footer><div>© 2026 Zoupr Systems</div><div>Automation • Analytics • Execution</div></footer>
+</div>
+<script>
+async function refreshZouprStatus(){
+  try{
+    const r = await fetch('./website_status.json?ts=' + Date.now(), {cache:'no-store'});
+    if(!r.ok) return;
+    const s = await r.json();
+    const status = document.getElementById('bot-status');
+    const statusSub = document.getElementById('bot-status-sub');
+    const win = document.getElementById('win-rate');
+    const result = document.getElementById('latest-result');
+    const build = document.getElementById('build-version');
+    const buildSub = document.getElementById('build-sub');
+    if(build) build.textContent = 'Bot V' + s.bot_version + ' Candidate';
+    if(buildSub) buildSub.textContent = s.profitability_validated ? 'Paper validation passed.' : 'Paper-research candidate. Profitability is not validated.';
+    if(win) win.textContent = `${s.wins} / ${s.trades}`;
+    const pnl = Number(s.pnl_sol || 0);
+    if(result) result.textContent = `${s.wins}W/${s.losses}L • ${pnl >= 0 ? '+' : ''}${pnl.toFixed(5)} SOL • paper`;
+    if(status) status.innerHTML = `<span class="dot"></span> ${s.state === 'running' ? 'Active Paper Test' : (s.state === 'pending' ? 'Forward Test Pending' : 'Paper Runner Stopped')}`;
+    if(statusSub) statusSub.textContent = s.status_text || 'Status synced from Zoupr.';
+  }catch(e){}
+}
+refreshZouprStatus();
+setInterval(refreshZouprStatus, 5000);
+</script>
+</body>
+</html>
