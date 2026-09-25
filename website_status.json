@@ -1,22 +1,65 @@
 {
-  "schema_version": 1,
-  "updated_at_utc": "2026-09-24T12:27:12.317847+00:00",
-  "bot_version": "40.7.10",
-  "build_label": "V40.7.10 Candidate",
+  "schema_version": 2,
+  "updated_at_utc": "2026-09-25T03:18:29Z",
+  "bot_version": "40.7.18",
+  "build_label": "V40.7.18 Long-Run Watchdog",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
   "state": "running",
-  "status_text": "Active paper test",
-  "test": 1,
+  "status_text": "Continuous paper autotune active",
+  "test": 3,
   "test_limit": "continuous",
-  "completed_tests": 0,
-  "trades": 2,
-  "wins": 2,
-  "losses": 0,
-  "pnl_sol": 0.009812666920205423,
+  "completed_tests": 2,
+  "policy_role": "challenger",
+  "trades": 4,
+  "wins": 3,
+  "losses": 1,
+  "pnl_sol": 0.00852900,
   "open_positions": 0,
   "feed_ok": true,
-  "latest_change": "continuation confirmation floor raised to 2.0 seconds because sub-2s matched entries were 0W/6L (-0.01444 SOL)",
-  "source": "Zoupr Systems local paper runner"
+  "feed_polls": 52,
+  "http_errors": 0,
+  "discord_alive": true,
+  "learner_alive": true,
+  "obsidian_alive": true,
+  "entry_policy": {
+    "min_hold_seconds": 2.20,
+    "min_gain_from_arm": 0.0015,
+    "max_momentum": 0.28,
+    "max_concurrent": 1
+  },
+  "research_memory": {
+    "completed_test_reviews": 58,
+    "trades": 85,
+    "wins": 21,
+    "losses": 64,
+    "pnl_sol": -0.15497553,
+    "best_test": {
+      "run": "20260924_203152",
+      "test": 1,
+      "wins": 2,
+      "losses": 0,
+      "trades": 2,
+      "pnl_sol": 0.00883787
+    }
+  },
+  "recent_tests": [
+    {"run":"20260924_210602","test":6,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.00501839},
+    {"run":"20260924_210602","test":7,"wins":0,"losses":2,"trades":2,"pnl_sol":-0.01639097},
+    {"run":"20260924_210602","test":8,"wins":0,"losses":2,"trades":2,"pnl_sol":-0.00417360},
+    {"run":"20260924_210602","test":9,"wins":1,"losses":1,"trades":2,"pnl_sol":0.00084959},
+    {"run":"20260924_210602","test":10,"wins":1,"losses":0,"trades":1,"pnl_sol":0.00134962},
+    {"run":"20260924_210602","test":12,"wins":1,"losses":0,"trades":1,"pnl_sol":0.00456040},
+    {"run":"20260924_230610","test":1,"wins":1,"losses":1,"trades":2,"pnl_sol":0.00316653},
+    {"run":"20260924_230610","test":2,"wins":2,"losses":0,"trades":2,"pnl_sol":0.00536247}
+  ],
+  "risk_zones": [
+    {"feature":"momentum","low":0.12,"high":0.16,"samples":15,"win_rate":0.20,"pnl_sol":-0.04066517,"action":"blocked"},
+    {"feature":"market_cap","low":3200,"high":4000,"samples":15,"win_rate":0.0667,"pnl_sol":-0.03805402,"action":"blocked"},
+    {"feature":"market_cap","low":7000,"high":8500,"samples":7,"win_rate":0.1429,"pnl_sol":-0.01817557,"action":"extra confirmation"},
+    {"feature":"momentum","low":0.16,"high":0.20,"samples":8,"win_rate":0.25,"pnl_sol":-0.01075421,"action":"extra confirmation"}
+  ],
+  "latest_change": "V40.7.18 adds heartbeat-based long-run watchdog checks for Discord, autotune and Obsidian so hung processes can be detected instead of merely looking alive.",
+  "source": "Zoupr live runner + Obsidian research memory"
 }
