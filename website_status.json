@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-25T03:18:29Z",
+  "updated_at_utc": "2026-09-25T03:22:29Z",
   "bot_version": "40.7.18",
   "build_label": "V40.7.18 Long-Run Watchdog",
   "mode": "paper",
@@ -15,26 +15,26 @@
   "trades": 4,
   "wins": 3,
   "losses": 1,
-  "pnl_sol": 0.00852900,
+  "pnl_sol": 0.008528996767349183,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 52,
+  "feed_polls": 526,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
   "entry_policy": {
-    "min_hold_seconds": 2.20,
+    "min_hold_seconds": 2.2,
     "min_gain_from_arm": 0.0015,
     "max_momentum": 0.28,
     "max_concurrent": 1
   },
   "research_memory": {
-    "completed_test_reviews": 58,
-    "trades": 85,
-    "wins": 21,
+    "completed_test_reviews": 59,
+    "trades": 87,
+    "wins": 23,
     "losses": 64,
-    "pnl_sol": -0.15497553,
+    "pnl_sol": -0.14961306,
     "best_test": {
       "run": "20260924_203152",
       "test": 1,
@@ -60,6 +60,6 @@
     {"feature":"market_cap","low":7000,"high":8500,"samples":7,"win_rate":0.1429,"pnl_sol":-0.01817557,"action":"extra confirmation"},
     {"feature":"momentum","low":0.16,"high":0.20,"samples":8,"win_rate":0.25,"pnl_sol":-0.01075421,"action":"extra confirmation"}
   ],
-  "latest_change": "V40.7.18 adds heartbeat-based long-run watchdog checks for Discord, autotune and Obsidian so hung processes can be detected instead of merely looking alive.",
+  "latest_change": "V40.7.18 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory"
 }
