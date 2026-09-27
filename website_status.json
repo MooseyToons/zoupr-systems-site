@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T13:35:47.380991+00:00",
+  "updated_at_utc": "2026-09-27T13:36:42.143011+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Long-Run Watchdog",
   "mode": "paper",
@@ -8,17 +8,17 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 13,
+  "test": 14,
   "test_limit": "continuous",
-  "completed_tests": 12,
+  "completed_tests": 13,
   "policy_role": "challenger",
-  "trades": 9,
+  "trades": 10,
   "wins": 1,
-  "losses": 8,
-  "pnl_sol": -0.018605120695264193,
-  "open_positions": 1,
+  "losses": 9,
+  "pnl_sol": -0.03195947115547305,
+  "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 531,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": false,
   "learner_alive": false,
@@ -111,6 +111,15 @@
     }
   ],
   "risk_zones": [
+    {
+      "feature": "market_cap",
+      "low": 7000,
+      "high": 8500,
+      "samples": 6,
+      "win_rate": 0.16666666666666666,
+      "pnl_sol": -0.0210738705216003,
+      "action": "extra confirmation"
+    },
     {
       "feature": "momentum",
       "low": 0.2,
