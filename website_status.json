@@ -1,40 +1,40 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T03:39:12.267239+00:00",
-  "bot_version": "40.7.18",
-  "build_label": "V40.7.18 Long-Run Watchdog",
+  "updated_at_utc": "2026-09-27T06:24:28.887346+00:00",
+  "bot_version": "40.7.22",
+  "build_label": "V40.7.22 Long-Run Watchdog",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 1,
+  "test": 13,
   "test_limit": "continuous",
-  "completed_tests": 0,
+  "completed_tests": 12,
   "policy_role": "champion",
-  "trades": 0,
-  "wins": 0,
+  "trades": 1,
+  "wins": 1,
   "losses": 0,
-  "pnl_sol": 0.0,
+  "pnl_sol": 0.002703148582121528,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 44,
-  "http_errors": 0,
+  "feed_polls": 273,
+  "http_errors": 1,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
   "entry_policy": {
-    "min_hold_seconds": 2.75,
-    "min_gain_from_arm": 0.004,
-    "max_momentum": 0.26,
+    "min_hold_seconds": 2.0,
+    "min_gain_from_arm": 0.0,
+    "max_momentum": 0.3,
     "max_concurrent": 1
   },
   "research_memory": {
-    "completed_test_reviews": 758,
-    "trades": 813,
-    "wins": 201,
-    "losses": 612,
-    "pnl_sol": -4.54102908,
+    "completed_test_reviews": 2299,
+    "trades": 2438,
+    "wins": 602,
+    "losses": 1836,
+    "pnl_sol": -13.62236525,
     "best_test": {
       "run": "20260920_232146",
       "test": 3,
@@ -45,20 +45,72 @@
     }
   },
   "recent_tests": [
-    {"run":"20260926_183052","test":40,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.00430542},
-    {"run":"20260926_183052","test":42,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.00238965},
-    {"run":"20260926_183052","test":43,"wins":0,"losses":2,"trades":2,"pnl_sol":-0.00355924},
-    {"run":"20260926_183052","test":44,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.00416615},
-    {"run":"20260926_183052","test":45,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.00439555},
-    {"run":"20260926_223814","test":2,"wins":0,"losses":2,"trades":2,"pnl_sol":-0.00756574},
-    {"run":"20260926_223814","test":4,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.00436524},
-    {"run":"20260926_223814","test":6,"wins":0,"losses":1,"trades":1,"pnl_sol":-0.0032748}
+    {
+      "run": "20260926_183052",
+      "test": 42,
+      "wins": 0,
+      "losses": 1,
+      "trades": 1,
+      "pnl_sol": -0.00238965
+    },
+    {
+      "run": "20260926_183052",
+      "test": 43,
+      "wins": 0,
+      "losses": 2,
+      "trades": 2,
+      "pnl_sol": -0.00355924
+    },
+    {
+      "run": "20260926_183052",
+      "test": 44,
+      "wins": 0,
+      "losses": 1,
+      "trades": 1,
+      "pnl_sol": -0.00416615
+    },
+    {
+      "run": "20260926_183052",
+      "test": 45,
+      "wins": 0,
+      "losses": 1,
+      "trades": 1,
+      "pnl_sol": -0.00439555
+    },
+    {
+      "run": "20260926_223814",
+      "test": 2,
+      "wins": 0,
+      "losses": 2,
+      "trades": 2,
+      "pnl_sol": -0.00756574
+    },
+    {
+      "run": "20260926_223814",
+      "test": 4,
+      "wins": 0,
+      "losses": 1,
+      "trades": 1,
+      "pnl_sol": -0.00436524
+    },
+    {
+      "run": "20260926_223814",
+      "test": 6,
+      "wins": 0,
+      "losses": 1,
+      "trades": 1,
+      "pnl_sol": -0.0032748
+    },
+    {
+      "run": "20260927_011423",
+      "test": 12,
+      "wins": 1,
+      "losses": 0,
+      "trades": 1,
+      "pnl_sol": 0.00270315
+    }
   ],
-  "risk_zones": [
-    {"feature":"momentum","low":0.16,"high":0.2,"samples":10,"win_rate":0.2,"pnl_sol":-0.05572958652957823,"action":"blocked"},
-    {"feature":"market_cap","low":7000,"high":8500,"samples":9,"win_rate":0.3333333333333333,"pnl_sol":-0.04051421417555896,"action":"extra confirmation"},
-    {"feature":"momentum","low":0.12,"high":0.16,"samples":19,"win_rate":0.3157894736842105,"pnl_sol":-0.03491803354693754,"action":"extra confirmation"}
-  ],
-  "latest_change": "V40.7.18 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
+  "risk_zones": [],
+  "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory"
 }
