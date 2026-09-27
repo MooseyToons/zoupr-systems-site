@@ -6,8 +6,8 @@
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "running",
-  "status_text": "Continuous paper autotune active",
+  "state": "stale",
+  "status_text": "Waiting for a fresh paper-run update",
   "test": 1,
   "test_limit": "continuous",
   "completed_tests": 0,
@@ -17,11 +17,11 @@
   "losses": 0,
   "pnl_sol": 0.0,
   "open_positions": 0,
-  "feed_ok": true,
+  "feed_ok": false,
   "feed_polls": 412,
   "http_errors": 0,
   "discord_alive": true,
-  "learner_alive": true,
+  "learner_alive": false,
   "obsidian_alive": true,
   "entry_policy": {
     "min_hold_seconds": 0.6,
@@ -162,6 +162,6 @@
   ],
   "latest_change": "V40.7.35 blocks broader volume70 entries that spike over +2.0% after arming; winner-core and 45% runner logic remain active.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T23:37:17.255598+00:00",
+  "service_health_checked_at_utc": "2026-09-27T23:38:05.151373+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
