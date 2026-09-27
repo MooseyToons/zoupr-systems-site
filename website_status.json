@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T23:27:04.413958+00:00",
+  "updated_at_utc": "2026-09-27T23:27:25.100395+00:00",
   "bot_version": "40.7.34",
   "build_label": "V40.7.34 Aggressive Paper Research",
   "mode": "paper",
@@ -18,11 +18,11 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 128,
+  "feed_polls": 169,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
-  "obsidian_alive": true,
+  "obsidian_alive": false,
   "entry_policy": {
     "min_hold_seconds": 0.6,
     "min_gain_from_arm": 0.0015,
@@ -162,6 +162,6 @@
   ],
   "latest_change": "V40.7.33 keeps 45% of validated winners running longer while preserving paper-only loss guards.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T23:27:11.791825+00:00",
+  "service_health_checked_at_utc": "2026-09-27T23:27:34.414127+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
