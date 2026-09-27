@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T13:17:18.606906+00:00",
+  "updated_at_utc": "2026-09-27T13:33:54.747014+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Long-Run Watchdog",
   "mode": "paper",
@@ -8,17 +8,17 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 10,
+  "test": 13,
   "test_limit": "continuous",
-  "completed_tests": 9,
-  "policy_role": "champion",
-  "trades": 7,
+  "completed_tests": 12,
+  "policy_role": "challenger",
+  "trades": 9,
   "wins": 1,
-  "losses": 6,
-  "pnl_sol": -0.012732750047366636,
+  "losses": 8,
+  "pnl_sol": -0.018605120695264193,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 186,
+  "feed_polls": 311,
   "http_errors": 0,
   "discord_alive": false,
   "learner_alive": false,
@@ -26,7 +26,7 @@
   "entry_policy": {
     "min_hold_seconds": 0.35,
     "min_gain_from_arm": 0.0,
-    "max_momentum": 0.3,
+    "max_momentum": 0.28,
     "max_concurrent": 6
   },
   "research_memory": {
@@ -110,7 +110,17 @@
       "pnl_sol": -0.00183505
     }
   ],
-  "risk_zones": [],
+  "risk_zones": [
+    {
+      "feature": "momentum",
+      "low": 0.2,
+      "high": 0.24,
+      "samples": 6,
+      "win_rate": 0.3333333333333333,
+      "pnl_sol": -0.004163041512741017,
+      "action": "extra confirmation"
+    }
+  ],
   "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory"
 }
