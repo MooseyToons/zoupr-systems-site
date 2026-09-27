@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T13:55:05.314446+00:00",
+  "updated_at_utc": "2026-09-27T13:57:24.393328+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Long-Run Watchdog",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 17,
+  "test": 18,
   "test_limit": "continuous",
-  "completed_tests": 16,
+  "completed_tests": 17,
   "policy_role": "challenger",
   "trades": 13,
   "wins": 1,
@@ -18,15 +18,15 @@
   "pnl_sol": -0.03970419034823286,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 326,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": false,
   "learner_alive": false,
   "obsidian_alive": false,
   "entry_policy": {
-    "min_hold_seconds": 0.35,
+    "min_hold_seconds": 0.5,
     "min_gain_from_arm": 0.0,
-    "max_momentum": 0.28,
+    "max_momentum": 0.3,
     "max_concurrent": 6
   },
   "research_memory": {
