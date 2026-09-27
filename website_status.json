@@ -22,7 +22,7 @@
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
-  "obsidian_alive": true,
+  "obsidian_alive": false,
   "entry_policy": {
     "min_hold_seconds": 0.6,
     "min_gain_from_arm": 0.0015,
@@ -150,6 +150,6 @@
   ],
   "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T22:24:48.925876+00:00",
+  "service_health_checked_at_utc": "2026-09-27T22:24:55.836592+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
