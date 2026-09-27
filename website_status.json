@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T07:05:45.878450+00:00",
+  "updated_at_utc": "2026-09-27T07:08:26.708371+00:00",
   "bot_version": "40.7.23",
   "build_label": "V40.7.23 Long-Run Watchdog",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 6,
+  "test": 7,
   "test_limit": "continuous",
-  "completed_tests": 5,
+  "completed_tests": 6,
   "policy_role": "champion",
   "trades": 1,
   "wins": 0,
@@ -18,8 +18,8 @@
   "pnl_sol": -0.0018350519184698114,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 335,
-  "http_errors": 1,
+  "feed_polls": 12,
+  "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -30,11 +30,11 @@
     "max_concurrent": 1
   },
   "research_memory": {
-    "completed_test_reviews": 2309,
-    "trades": 2438,
+    "completed_test_reviews": 2310,
+    "trades": 2439,
     "wins": 602,
-    "losses": 1836,
-    "pnl_sol": -13.62236525,
+    "losses": 1837,
+    "pnl_sol": -13.6242003,
     "best_test": {
       "run": "20260920_232146",
       "test": 3,
@@ -45,14 +45,6 @@
     }
   },
   "recent_tests": [
-    {
-      "run": "20260926_183052",
-      "test": 42,
-      "wins": 0,
-      "losses": 1,
-      "trades": 1,
-      "pnl_sol": -0.00238965
-    },
     {
       "run": "20260926_183052",
       "test": 43,
@@ -108,6 +100,14 @@
       "losses": 0,
       "trades": 1,
       "pnl_sol": 0.00270315
+    },
+    {
+      "run": "20260927_023502",
+      "test": 6,
+      "wins": 0,
+      "losses": 1,
+      "trades": 1,
+      "pnl_sol": -0.00183505
     }
   ],
   "risk_zones": [],
