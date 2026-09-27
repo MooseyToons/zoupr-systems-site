@@ -1,33 +1,33 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T23:19:42.178583+00:00",
-  "bot_version": "40.7.33",
-  "build_label": "V40.7.33 Aggressive Paper Research",
+  "updated_at_utc": "2026-09-27T23:25:56.855837+00:00",
+  "bot_version": "unknown",
+  "build_label": "Vunknown Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "stale",
+  "state": "unknown",
   "status_text": "Waiting for a fresh paper-run update",
-  "test": 3,
-  "test_limit": "continuous",
-  "completed_tests": 2,
-  "policy_role": "challenger",
+  "test": null,
+  "test_limit": null,
+  "completed_tests": 0,
+  "policy_role": null,
   "trades": 0,
   "wins": 0,
   "losses": 0,
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": false,
-  "feed_polls": 126,
+  "feed_polls": 0,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
   "obsidian_alive": true,
   "entry_policy": {
-    "min_hold_seconds": 0.6,
-    "min_gain_from_arm": 0.0015,
-    "max_momentum": 0.28,
-    "max_concurrent": 6
+    "min_hold_seconds": null,
+    "min_gain_from_arm": null,
+    "max_momentum": null,
+    "max_concurrent": null
   },
   "research_memory": {
     "completed_test_reviews": 2329,
@@ -110,58 +110,9 @@
       "pnl_sol": -0.00183505
     }
   ],
-  "risk_zones": [
-    {
-      "feature": "momentum",
-      "low": 0.24,
-      "high": 0.3,
-      "samples": 28,
-      "win_rate": 0.14285714285714285,
-      "pnl_sol": -0.11210191605607008,
-      "block_entry": true,
-      "extra_hold_seconds": 0.0,
-      "extra_min_gain": 0.0,
-      "action": "blocked"
-    },
-    {
-      "feature": "market_cap",
-      "low": 7000,
-      "high": 8500,
-      "samples": 19,
-      "win_rate": 0.15789473684210525,
-      "pnl_sol": -0.09985041766830549,
-      "block_entry": true,
-      "extra_hold_seconds": 0.0,
-      "extra_min_gain": 0.0,
-      "action": "blocked"
-    },
-    {
-      "feature": "market_cap",
-      "low": 8500,
-      "high": 10000,
-      "samples": 8,
-      "win_rate": 0.125,
-      "pnl_sol": -0.036555910225192556,
-      "block_entry": false,
-      "extra_hold_seconds": 0.25,
-      "extra_min_gain": 0.0015,
-      "action": "extra confirmation"
-    },
-    {
-      "feature": "market_cap",
-      "low": 10000,
-      "high": 12001,
-      "samples": 10,
-      "win_rate": 0.3,
-      "pnl_sol": -0.020914846821167284,
-      "block_entry": false,
-      "extra_hold_seconds": 0.25,
-      "extra_min_gain": 0.0015,
-      "action": "extra confirmation"
-    }
-  ],
+  "risk_zones": [],
   "latest_change": "V40.7.33 keeps 45% of validated winners running longer while preserving paper-only loss guards.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T23:25:24.509169+00:00",
+  "service_health_checked_at_utc": "2026-09-27T23:25:56.855875+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
