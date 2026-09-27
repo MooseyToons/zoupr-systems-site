@@ -1,32 +1,32 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T14:43:27.989020+00:00",
+  "updated_at_utc": "2026-09-27T14:59:11.229213+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "stale",
-  "status_text": "Waiting for a fresh paper-run update",
-  "test": 26,
+  "state": "running",
+  "status_text": "Continuous paper autotune active",
+  "test": 29,
   "test_limit": "continuous",
-  "completed_tests": 25,
+  "completed_tests": 28,
   "policy_role": "challenger",
-  "trades": 23,
+  "trades": 25,
   "wins": 3,
-  "losses": 20,
-  "pnl_sol": -0.10025997035658529,
+  "losses": 22,
+  "pnl_sol": -0.12011035469486847,
   "open_positions": 0,
-  "feed_ok": false,
-  "feed_polls": 516,
-  "http_errors": 1,
+  "feed_ok": true,
+  "feed_polls": 552,
+  "http_errors": 0,
   "discord_alive": true,
-  "learner_alive": false,
+  "learner_alive": true,
   "obsidian_alive": true,
   "entry_policy": {
-    "min_hold_seconds": 0.7,
-    "min_gain_from_arm": 0.0005,
-    "max_momentum": 0.28,
+    "min_hold_seconds": 0.35,
+    "min_gain_from_arm": 0.0015,
+    "max_momentum": 0.3,
     "max_concurrent": 6
   },
   "research_memory": {
@@ -112,6 +112,15 @@
   ],
   "risk_zones": [
     {
+      "feature": "market_cap",
+      "low": 7000,
+      "high": 8500,
+      "samples": 10,
+      "win_rate": 0.2,
+      "pnl_sol": -0.0416958809490036,
+      "action": "blocked"
+    },
+    {
       "feature": "momentum",
       "low": 0.24,
       "high": 0.3,
@@ -121,17 +130,17 @@
       "action": "extra confirmation"
     },
     {
-      "feature": "market_cap",
-      "low": 7000,
-      "high": 8500,
-      "samples": 9,
-      "win_rate": 0.2222222222222222,
-      "pnl_sol": -0.028313461987812906,
+      "feature": "momentum",
+      "low": 0.2,
+      "high": 0.24,
+      "samples": 14,
+      "win_rate": 0.2857142857142857,
+      "pnl_sol": -0.02882487043164808,
       "action": "extra confirmation"
     }
   ],
   "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T14:58:27.536623+00:00",
+  "service_health_checked_at_utc": "2026-09-27T14:59:19.342825+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
