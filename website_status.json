@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T23:27:25.100395+00:00",
+  "updated_at_utc": "2026-09-27T23:27:35.955545+00:00",
   "bot_version": "40.7.34",
-  "build_label": "V40.7.34 Aggressive Paper Research",
+  "build_label": "V40.7.34 Winner-Core Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
@@ -18,7 +18,7 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 169,
+  "feed_polls": 191,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -160,8 +160,8 @@
       "action": "extra confirmation"
     }
   ],
-  "latest_change": "V40.7.33 keeps 45% of validated winners running longer while preserving paper-only loss guards.",
+  "latest_change": "V40.7.34 fast-paths exact logged-winner morphology while broader setups keep loss-derived brakes; winner exits still retain a 45% runner.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T23:27:34.414127+00:00",
-  "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
+  "service_health_checked_at_utc": "2026-09-27T23:27:44.222996+00:00",
+  "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
