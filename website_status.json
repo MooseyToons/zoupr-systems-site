@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T15:56:16.925950+00:00",
+  "updated_at_utc": "2026-09-27T15:56:33.925538+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 40,
+  "test": 41,
   "test_limit": "continuous",
-  "completed_tests": 39,
+  "completed_tests": 40,
   "policy_role": "challenger",
   "trades": 35,
   "wins": 6,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.1583695190756768,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 581,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -113,20 +113,20 @@
   "risk_zones": [
     {
       "feature": "momentum",
+      "low": 0.2,
+      "high": 0.24,
+      "samples": 21,
+      "win_rate": 0.23809523809523808,
+      "pnl_sol": -0.08023631273581487,
+      "action": "blocked"
+    },
+    {
+      "feature": "momentum",
       "low": 0.24,
       "high": 0.3,
       "samples": 14,
       "win_rate": 0.14285714285714285,
       "pnl_sol": -0.067555275895377,
-      "action": "blocked"
-    },
-    {
-      "feature": "momentum",
-      "low": 0.2,
-      "high": 0.24,
-      "samples": 20,
-      "win_rate": 0.25,
-      "pnl_sol": -0.06712341640294743,
       "action": "blocked"
     },
     {
@@ -141,6 +141,6 @@
   ],
   "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T15:56:30.234579+00:00",
+  "service_health_checked_at_utc": "2026-09-27T15:56:42.086683+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
