@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T18:07:31.566231+00:00",
+  "updated_at_utc": "2026-09-27T18:07:50.621923+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 65,
+  "test": 66,
   "test_limit": "continuous",
-  "completed_tests": 64,
+  "completed_tests": 65,
   "policy_role": "challenger",
   "trades": 45,
   "wins": 6,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.20277848746585533,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 574,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -115,18 +115,18 @@
       "feature": "momentum",
       "low": 0.24,
       "high": 0.3,
-      "samples": 19,
-      "win_rate": 0.10526315789473684,
-      "pnl_sol": -0.09758182741710561,
+      "samples": 20,
+      "win_rate": 0.1,
+      "pnl_sol": -0.09956278829395511,
       "action": "blocked"
     },
     {
       "feature": "momentum",
       "low": 0.2,
       "high": 0.24,
-      "samples": 24,
-      "win_rate": 0.20833333333333334,
-      "pnl_sol": -0.09065752309508507,
+      "samples": 25,
+      "win_rate": 0.2,
+      "pnl_sol": -0.09263776872741526,
       "action": "blocked"
     },
     {
@@ -137,10 +137,19 @@
       "win_rate": 0.16666666666666666,
       "pnl_sol": -0.029240492705909785,
       "action": "extra confirmation"
+    },
+    {
+      "feature": "market_cap",
+      "low": 10000,
+      "high": 12001,
+      "samples": 7,
+      "win_rate": 0.14285714285714285,
+      "pnl_sol": -0.026595559219888664,
+      "action": "extra confirmation"
     }
   ],
   "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T18:07:37.629136+00:00",
+  "service_health_checked_at_utc": "2026-09-27T18:07:59.694148+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
