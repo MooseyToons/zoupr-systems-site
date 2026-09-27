@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T19:05:22.477168+00:00",
+  "updated_at_utc": "2026-09-27T19:06:16.164282+00:00",
   "bot_version": "40.7.32",
   "build_label": "V40.7.32 Aggressive Paper Research",
   "mode": "paper",
@@ -16,9 +16,9 @@
   "wins": 6,
   "losses": 42,
   "pnl_sol": -0.2131217191072058,
-  "open_positions": 0,
+  "open_positions": 1,
   "feed_ok": true,
-  "feed_polls": 1,
+  "feed_polls": 107,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -150,6 +150,6 @@
   ],
   "latest_change": "V40.7.20 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-27T19:05:28.793596+00:00",
+  "service_health_checked_at_utc": "2026-09-27T19:06:25.592089+00:00",
   "health_source": "paper status freshness, Discord heartbeat, mirrored run journal freshness"
 }
