@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-27T08:36:16.751124+00:00",
+  "updated_at_utc": "2026-09-27T08:36:39.872368+00:00",
   "bot_version": "40.7.24",
   "build_label": "V40.7.24 Long-Run Watchdog",
   "mode": "paper",
@@ -21,7 +21,7 @@
   "feed_polls": 358,
   "http_errors": 0,
   "discord_alive": true,
-  "learner_alive": true,
+  "learner_alive": false,
   "obsidian_alive": true,
   "entry_policy": {
     "min_hold_seconds": 2.0,
