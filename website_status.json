@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-28T15:19:17.362113+00:00",
+  "updated_at_utc": "2026-09-28T15:19:38.015373+00:00",
   "bot_version": "40.7.40",
   "build_label": "V40.7.40 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 69,
+  "test": 70,
   "test_limit": "continuous",
-  "completed_tests": 68,
+  "completed_tests": 69,
   "policy_role": "challenger",
   "trades": 33,
   "wins": 5,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.041857862543533866,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 582,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -113,6 +113,18 @@
   "risk_zones": [
     {
       "feature": "momentum",
+      "low": 0.2,
+      "high": 0.24,
+      "samples": 11,
+      "win_rate": 0.09090909090909091,
+      "pnl_sol": -0.01624225002769968,
+      "block_entry": true,
+      "extra_hold_seconds": 0.0,
+      "extra_min_gain": 0.0,
+      "action": "blocked"
+    },
+    {
+      "feature": "momentum",
       "low": 0.08,
       "high": 0.12,
       "samples": 14,
@@ -124,16 +136,16 @@
       "action": "blocked"
     },
     {
-      "feature": "momentum",
-      "low": 0.2,
-      "high": 0.24,
-      "samples": 12,
-      "win_rate": 0.16666666666666666,
-      "pnl_sol": -0.012131360624094867,
-      "block_entry": true,
-      "extra_hold_seconds": 0.0,
+      "feature": "market_cap",
+      "low": 4000,
+      "high": 5000,
+      "samples": 30,
+      "win_rate": 0.06666666666666667,
+      "pnl_sol": -0.02551464872490404,
+      "block_entry": false,
+      "extra_hold_seconds": 0.35,
       "extra_min_gain": 0.0,
-      "action": "blocked"
+      "action": "extra confirmation"
     },
     {
       "feature": "momentum",
@@ -146,22 +158,10 @@
       "extra_hold_seconds": 0.25,
       "extra_min_gain": 0.0015,
       "action": "extra confirmation"
-    },
-    {
-      "feature": "market_cap",
-      "low": 5000,
-      "high": 7000,
-      "samples": 11,
-      "win_rate": 0.09090909090909091,
-      "pnl_sol": -0.022960401472398088,
-      "block_entry": false,
-      "extra_hold_seconds": 0.35,
-      "extra_min_gain": 0.0,
-      "action": "extra confirmation"
     }
   ],
   "latest_change": "V40.7.35 blocks broader volume70 entries that spike over +2.0% after arming; winner-core and 45% runner logic remain active.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-28T15:19:19.716421+00:00",
+  "service_health_checked_at_utc": "2026-09-28T15:19:42.144879+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
