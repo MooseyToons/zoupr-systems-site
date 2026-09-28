@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-28T19:08:45.729365+00:00",
+  "updated_at_utc": "2026-09-28T19:09:44.864248+00:00",
   "bot_version": "40.7.40",
   "build_label": "V40.7.40 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 113,
+  "test": 114,
   "test_limit": "continuous",
-  "completed_tests": 112,
+  "completed_tests": 113,
   "policy_role": "challenger",
   "trades": 58,
   "wins": 8,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.09813850117612413,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 496,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -113,18 +113,6 @@
   "risk_zones": [
     {
       "feature": "momentum",
-      "low": 0.12,
-      "high": 0.16,
-      "samples": 20,
-      "win_rate": 0.25,
-      "pnl_sol": -0.01797138468649219,
-      "block_entry": true,
-      "extra_hold_seconds": 0.0,
-      "extra_min_gain": 0.0,
-      "action": "blocked"
-    },
-    {
-      "feature": "momentum",
       "low": 0.16,
       "high": 0.2,
       "samples": 13,
@@ -162,6 +150,6 @@
   ],
   "latest_change": "V40.7.35 blocks broader volume70 entries that spike over +2.0% after arming; winner-core and 45% runner logic remain active.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-28T19:08:52.645517+00:00",
+  "service_health_checked_at_utc": "2026-09-28T19:09:50.080283+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
