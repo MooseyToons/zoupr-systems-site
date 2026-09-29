@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-29T18:29:01.180823+00:00",
+  "updated_at_utc": "2026-09-29T18:30:07.164403+00:00",
   "bot_version": "40.7.40",
   "build_label": "V40.7.40 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 380,
+  "test": 381,
   "test_limit": "continuous",
-  "completed_tests": 379,
+  "completed_tests": 380,
   "policy_role": "challenger",
   "trades": 179,
   "wins": 26,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.24923732294126769,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 502,
+  "feed_polls": 12,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -162,6 +162,6 @@
   ],
   "latest_change": "V40.7.35 blocks broader volume70 entries that spike over +2.0% after arming; winner-core and 45% runner logic remain active.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-29T18:29:05.989276+00:00",
+  "service_health_checked_at_utc": "2026-09-29T18:30:09.527671+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
