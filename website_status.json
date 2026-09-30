@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-09-30T01:29:04.681694+00:00",
+  "updated_at_utc": "2026-09-30T01:29:42.174105+00:00",
   "bot_version": "40.7.40",
   "build_label": "V40.7.40 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 460,
+  "test": 461,
   "test_limit": "continuous",
-  "completed_tests": 459,
+  "completed_tests": 460,
   "policy_role": "challenger",
   "trades": 238,
   "wins": 37,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.27486753094743266,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 548,
+  "feed_polls": 1,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -26,7 +26,7 @@
   "entry_policy": {
     "min_hold_seconds": 0.75,
     "min_gain_from_arm": 0.003,
-    "max_momentum": 0.27,
+    "max_momentum": 0.3,
     "max_concurrent": 6
   },
   "research_memory": {
@@ -115,9 +115,9 @@
       "feature": "market_cap",
       "low": 5000,
       "high": 7000,
-      "samples": 16,
-      "win_rate": 0.1875,
-      "pnl_sol": -0.027528295437436172,
+      "samples": 15,
+      "win_rate": 0.2,
+      "pnl_sol": -0.025201332685140194,
       "block_entry": false,
       "extra_hold_seconds": 0.35,
       "extra_min_gain": 0.0,
@@ -138,6 +138,6 @@
   ],
   "latest_change": "V40.7.35 blocks broader volume70 entries that spike over +2.0% after arming; winner-core and 45% runner logic remain active.",
   "source": "Direct laptop panel bridge + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-09-30T01:29:08.248740+00:00",
+  "service_health_checked_at_utc": "2026-09-30T01:29:45.862800+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
