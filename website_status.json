@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-10-01T08:00:32.422013+00:00",
+  "updated_at_utc": "2026-10-01T08:00:39.649304+00:00",
   "bot_version": "40.7.43",
   "build_label": "V40.7.43 Aggressive Paper Research",
   "mode": "paper",
@@ -8,9 +8,9 @@
   "profitability_validated": false,
   "state": "running",
   "status_text": "Continuous paper autotune active",
-  "test": 39,
+  "test": 40,
   "test_limit": "continuous",
-  "completed_tests": 38,
+  "completed_tests": 39,
   "policy_role": "challenger",
   "trades": 13,
   "wins": 6,
@@ -18,7 +18,7 @@
   "pnl_sol": -0.002386886132532064,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 586,
+  "feed_polls": 12,
   "http_errors": 0,
   "discord_alive": false,
   "learner_alive": true,
@@ -141,6 +141,6 @@
   ],
   "latest_change": "V40.7.40 refuses to tighten toward a replay target that is still losing; dry paper windows can recover one bounded activity step while Qwen/Python keep reviewing evidence.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-10-01T08:00:43.756955+00:00",
+  "service_health_checked_at_utc": "2026-10-01T08:00:51.202817+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
