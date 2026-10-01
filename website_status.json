@@ -1,33 +1,33 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-10-01T05:54:12.720417+00:00",
-  "bot_version": "40.7.43",
-  "build_label": "V40.7.43 Aggressive Paper Research",
+  "updated_at_utc": "2026-10-01T05:54:27.139561+00:00",
+  "bot_version": "unknown",
+  "build_label": "Vunknown Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "running",
-  "status_text": "Continuous paper autotune active",
-  "test": 15,
-  "test_limit": "continuous",
-  "completed_tests": 14,
-  "policy_role": "champion",
-  "trades": 5,
-  "wins": 3,
-  "losses": 2,
-  "pnl_sol": -0.0013084806656735292,
+  "state": "pending",
+  "status_text": "Waiting for a fresh paper-run update",
+  "test": null,
+  "test_limit": null,
+  "completed_tests": 0,
+  "policy_role": "unknown",
+  "trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "pnl_sol": 0.0,
   "open_positions": 0,
-  "feed_ok": true,
-  "feed_polls": 276,
+  "feed_ok": false,
+  "feed_polls": 0,
   "http_errors": 0,
   "discord_alive": false,
-  "learner_alive": true,
+  "learner_alive": false,
   "obsidian_alive": false,
   "entry_policy": {
-    "min_hold_seconds": 1.35,
-    "min_gain_from_arm": 0.005,
-    "max_momentum": 0.27,
-    "max_concurrent": 6
+    "min_hold_seconds": 0.0,
+    "min_gain_from_arm": 0.0,
+    "max_momentum": 0.0,
+    "max_concurrent": 1
   },
   "research_memory": {
     "completed_test_reviews": 2850,
@@ -110,37 +110,9 @@
       "pnl_sol": -0.00538895
     }
   ],
-  "risk_zones": [
-    {
-      "feature": "market_cap",
-      "low": 5000,
-      "high": 7000,
-      "samples": 10,
-      "win_rate": 0.2,
-      "pnl_sol": -0.01740871375404587,
-      "action": "blocked"
-    },
-    {
-      "feature": "momentum",
-      "low": 0.16,
-      "high": 0.2,
-      "samples": 6,
-      "win_rate": 0.3333333333333333,
-      "pnl_sol": -0.018650484292444418,
-      "action": "extra confirmation"
-    },
-    {
-      "feature": "momentum",
-      "low": 0.12,
-      "high": 0.16,
-      "samples": 6,
-      "win_rate": 0.0,
-      "pnl_sol": -0.017588392687617374,
-      "action": "extra confirmation"
-    }
-  ],
+  "risk_zones": [],
   "latest_change": "V40.7.40 refuses to tighten toward a replay target that is still losing; dry paper windows can recover one bounded activity step while Qwen/Python keep reviewing evidence.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-10-01T05:54:18.721699+00:00",
+  "service_health_checked_at_utc": "2026-10-01T05:54:36.356362+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
