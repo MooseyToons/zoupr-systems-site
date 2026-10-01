@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-10-01T06:20:37.408540+00:00",
+  "updated_at_utc": "2026-10-01T06:21:42.257657+00:00",
   "bot_version": "40.7.43",
   "build_label": "V40.7.43 Aggressive Paper Research",
   "mode": "paper",
@@ -18,7 +18,7 @@
   "pnl_sol": -0.0013084806656735292,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 366,
+  "feed_polls": 500,
   "http_errors": 0,
   "discord_alive": false,
   "learner_alive": true,
@@ -141,6 +141,6 @@
   ],
   "latest_change": "V40.7.40 refuses to tighten toward a replay target that is still losing; dry paper windows can recover one bounded activity step while Qwen/Python keep reviewing evidence.",
   "source": "Zoupr live runner + Obsidian research memory",
-  "service_health_checked_at_utc": "2026-10-01T06:20:48.385694+00:00",
+  "service_health_checked_at_utc": "2026-10-01T06:21:51.094625+00:00",
   "health_source": "direct laptop panel bridge, Discord heartbeat, live Obsidian autotune note"
 }
