@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-09T15:18:28.626857+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T15:18:43.704073+00:00",
+  "updated_at_utc": "2026-10-09T15:18:47.727373+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T15:18:51.080442+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -10,9 +10,9 @@
   "state": "running",
   "status_text": "Continuous paper tests; profitability unproven",
   "run_id": "20261009_085025",
-  "test": 30,
+  "test": 31,
   "test_limit": "continuous",
-  "completed_tests": 29,
+  "completed_tests": 30,
   "policy_role": "champion",
   "trades": 6,
   "wins": 0,
@@ -20,8 +20,8 @@
   "pnl_sol": -0.658988028195161,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 530,
-  "http_errors": 21,
+  "feed_polls": 1,
+  "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -35,10 +35,10 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 0,
-    "sample_changes": 81,
-    "entry_confirmations": 27,
-    "adaptive_arms": 7,
-    "adaptive_rejects": 2,
+    "sample_changes": 0,
+    "entry_confirmations": 0,
+    "adaptive_arms": 0,
+    "adaptive_rejects": 0,
     "adaptive_entries": 0,
     "buys": 0
   },
@@ -56,7 +56,7 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 4047,
+    "completed_test_reviews": 4048,
     "trades": 2821,
     "wins": 635,
     "losses": 2186,
@@ -179,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T15:18:46.885936+00:00",
+  "service_health_checked_at_utc": "2026-10-09T15:18:55.131795+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
