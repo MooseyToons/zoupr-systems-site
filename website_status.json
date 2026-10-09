@@ -1,113 +1,142 @@
 {
-  "schema_version": 2,
-  "updated_at_utc": "2026-10-09T09:16:37.833036+00:00",
+  "schema_version": 3,
+  "updated_at_utc": "2026-10-09T09:48:34.098028+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T09:48:35.060022+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
   "state": "running",
-  "status_text": "Paper runner reporting from laptop",
-  "test": 16,
+  "status_text": "Continuous paper tests; profitability unproven",
+  "run_id": "20261009_054758",
+  "test": 1,
   "test_limit": "continuous",
-  "completed_tests": 15,
+  "completed_tests": 0,
   "policy_role": "champion",
   "trades": 0,
   "wins": 0,
   "losses": 0,
-  "pnl_sol": 0,
+  "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 187,
-  "http_errors": 4,
-  "discord_alive": false,
+  "feed_polls": 59,
+  "http_errors": 3,
+  "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": false,
   "entry_policy": {
-    "min_hold_seconds": 2,
+    "min_hold_seconds": 2.0,
     "min_gain_from_arm": 0.009,
     "max_momentum": 0.24,
     "max_concurrent": 8
   },
+  "entry_trial": "liquid-follow-through-v2-window",
+  "paper_buy_sol": 1.0,
+  "entry_funnel": {
+    "watchlist_count": 0,
+    "sample_changes": 0,
+    "entry_confirmations": 0,
+    "adaptive_arms": 0,
+    "adaptive_rejects": 0,
+    "adaptive_entries": 0,
+    "buys": 0
+  },
+  "workers": {
+    "categories": 7,
+    "evidence_current": false,
+    "python_read_current_run": false,
+    "python_read_test": null,
+    "measured_tests": null,
+    "python_read_at_utc": null,
+    "decision": null,
+    "qwen_review_current_run": false,
+    "qwen_state": "awaiting_current_run",
+    "qwen_review_at_utc": null,
+    "qwen_policy_changed": false
+  },
   "research_memory": {
-    "completed_test_reviews": 2402,
-    "trades": 2441,
-    "wins": 603,
-    "losses": 1838,
-    "pnl_sol": -13.6233322,
+    "completed_test_reviews": 1829,
+    "trades": 1268,
+    "wins": 266,
+    "losses": 1002,
+    "pnl_sol": -6.105759291746028,
     "best_test": {
       "run": "20260920_232146",
       "test": 3,
+      "trades": 1,
       "wins": 1,
       "losses": 0,
-      "trades": 1,
       "pnl_sol": 0.0374715
-    }
+    },
+    "duplicates_removed": 1589,
+    "unreadable_rows": 0,
+    "scope": "Deduplicated saved Obsidian test reviews; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
     {
-      "run": "20260926_183052",
-      "test": 45,
-      "wins": 0,
-      "losses": 1,
-      "trades": 1,
-      "pnl_sol": -0.00439555
-    },
-    {
-      "run": "20260926_223814",
-      "test": 2,
+      "run": "20260930_101907",
+      "test": 14,
+      "trades": 2,
       "wins": 0,
       "losses": 2,
-      "trades": 2,
-      "pnl_sol": -0.00756574
+      "pnl_sol": -0.00538895
     },
     {
-      "run": "20260926_223814",
-      "test": 4,
+      "run": "20261008_031922",
+      "test": 3,
+      "trades": 1,
       "wins": 0,
       "losses": 1,
-      "trades": 1,
-      "pnl_sol": -0.00436524
+      "pnl_sol": -0.13051872939050346
     },
     {
-      "run": "20260926_223814",
-      "test": 6,
+      "run": "20261008_033817",
+      "test": 2,
+      "trades": 1,
       "wins": 0,
       "losses": 1,
-      "trades": 1,
-      "pnl_sol": -0.0032748
+      "pnl_sol": -0.07612968233400008
     },
     {
-      "run": "20260927_011423",
-      "test": 12,
-      "wins": 1,
-      "losses": 0,
+      "run": "20261008_033817",
+      "test": 3,
       "trades": 1,
-      "pnl_sol": 0.00270315
-    },
-    {
-      "run": "20260927_023502",
-      "test": 6,
       "wins": 0,
       "losses": 1,
-      "trades": 1,
-      "pnl_sol": -0.00183505
+      "pnl_sol": -0.08273644578050454
     },
     {
-      "run": "20260927_011423",
-      "test": 12,
-      "wins": 1,
-      "losses": 0,
+      "run": "20261008_225645",
+      "test": 28,
       "trades": 1,
-      "pnl_sol": 0.00270315
-    },
-    {
-      "run": "20260927_023502",
-      "test": 6,
       "wins": 0,
       "losses": 1,
+      "pnl_sol": -0.15851709937751568
+    },
+    {
+      "run": "20261008_225645",
+      "test": 30,
       "trades": 1,
-      "pnl_sol": -0.00183505
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.10987090586742743
+    },
+    {
+      "run": "20261008_225645",
+      "test": 35,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.121600039464004
+    },
+    {
+      "run": "20261008_225645",
+      "test": 37,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.10596220975010673
     }
   ],
   "risk_zones": [
@@ -148,6 +177,8 @@
       "action": "blocked"
     }
   ],
-  "latest_change": "V40.7.46 paper runner snapshot. Automated public publishing still being configured.",
-  "source": "Laptop paper runner snapshot; research ledger last verified October 1"
+  "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
+  "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
+  "service_health_checked_at_utc": "2026-10-09T09:48:39.761365+00:00",
+  "health_source": "laptop public status and current Jarvis heartbeat"
 }
