@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-09T20:30:09.000432+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T20:30:11.580941+00:00",
+  "updated_at_utc": "2026-10-09T20:31:03.471833+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T20:31:09.881701+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -0.8399500394557515,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 220,
-  "http_errors": 5,
+  "feed_polls": 319,
+  "http_errors": 9,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,8 +34,8 @@
   "entry_trial": "liquid-follow-through-v2-window",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 2,
-    "sample_changes": 58,
+    "watchlist_count": 4,
+    "sample_changes": 102,
     "entry_confirmations": 18,
     "adaptive_arms": 0,
     "adaptive_rejects": 2,
@@ -179,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T20:30:15.937054+00:00",
+  "service_health_checked_at_utc": "2026-10-09T20:31:18.546594+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
