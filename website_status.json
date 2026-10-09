@@ -1,33 +1,33 @@
 {
   "schema_version": 2,
-  "updated_at_utc": "2026-10-01T00:49:00.449155+00:00",
-  "bot_version": "40.7.19",
-  "build_label": "V40.7.19 Long-Run Watchdog",
+  "updated_at_utc": "2026-10-09T09:16:37.833036+00:00",
+  "bot_version": "40.7.46",
+  "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "stopped",
-  "status_text": "Paper learner not reporting active",
-  "test": 3,
+  "state": "running",
+  "status_text": "Paper runner reporting from laptop",
+  "test": 16,
   "test_limit": "continuous",
-  "completed_tests": 3,
-  "policy_role": "challenger",
+  "completed_tests": 15,
+  "policy_role": "champion",
   "trades": 0,
   "wins": 0,
   "losses": 0,
-  "pnl_sol": 0.0,
+  "pnl_sol": 0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 507,
-  "http_errors": 0,
-  "discord_alive": true,
-  "learner_alive": false,
-  "obsidian_alive": true,
+  "feed_polls": 187,
+  "http_errors": 4,
+  "discord_alive": false,
+  "learner_alive": true,
+  "obsidian_alive": false,
   "entry_policy": {
-    "min_hold_seconds": 2.5,
-    "min_gain_from_arm": 0.0055,
+    "min_hold_seconds": 2,
+    "min_gain_from_arm": 0.009,
     "max_momentum": 0.24,
-    "max_concurrent": 1
+    "max_concurrent": 8
   },
   "research_memory": {
     "completed_test_reviews": 2402,
@@ -113,32 +113,41 @@
   "risk_zones": [
     {
       "feature": "momentum",
-      "low": 0.16,
-      "high": 0.2,
-      "samples": 14,
-      "win_rate": 0.07142857142857142,
-      "pnl_sol": -0.06242180066422314,
+      "low": 0.2,
+      "high": 0.24,
+      "samples": 15,
+      "win_rate": 0.06666666666666667,
+      "pnl_sol": -0.08951038439276567,
       "action": "blocked"
     },
     {
       "feature": "market_cap",
       "low": 4000,
       "high": 5000,
-      "samples": 24,
-      "win_rate": 0.20833333333333334,
-      "pnl_sol": -0.03039170961952556,
+      "samples": 18,
+      "win_rate": 0.1111111111111111,
+      "pnl_sol": -0.07840526682505683,
+      "action": "blocked"
+    },
+    {
+      "feature": "market_cap",
+      "low": 10000,
+      "high": 12001,
+      "samples": 15,
+      "win_rate": 0.06666666666666667,
+      "pnl_sol": -0.07831272543604947,
       "action": "blocked"
     },
     {
       "feature": "momentum",
-      "low": 0.08,
-      "high": 0.12,
-      "samples": 13,
-      "win_rate": 0.3076923076923077,
-      "pnl_sol": -0.030559363039485716,
-      "action": "extra confirmation"
+      "low": 0.04,
+      "high": 0.08,
+      "samples": 21,
+      "win_rate": 0.09523809523809523,
+      "pnl_sol": -0.06682355829168661,
+      "action": "blocked"
     }
   ],
-  "latest_change": "V40.7.19 links the live runner, Obsidian research memory, Discord health and long-run watchdog into one public-safe status model.",
-  "source": "Zoupr live runner + Obsidian research memory"
+  "latest_change": "V40.7.46 paper runner snapshot. Automated public publishing still being configured.",
+  "source": "Laptop paper runner snapshot; research ledger last verified October 1"
 }
