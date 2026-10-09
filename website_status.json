@@ -1,15 +1,15 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-09T09:54:14.134197+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T09:58:36.329494+00:00",
+  "updated_at_utc": "2026-10-09T09:59:27.457605+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T09:59:29.695432+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "stale",
-  "status_text": "Waiting for a fresh paper-run update",
-  "run_id": "20261009_055316",
+  "state": "running",
+  "status_text": "Continuous paper tests; profitability unproven",
+  "run_id": "20261009_055922",
   "test": 1,
   "test_limit": "continuous",
   "completed_tests": 0,
@@ -19,11 +19,11 @@
   "losses": 0,
   "pnl_sol": 0.0,
   "open_positions": 0,
-  "feed_ok": false,
-  "feed_polls": 97,
-  "http_errors": 3,
+  "feed_ok": true,
+  "feed_polls": 1,
+  "http_errors": 0,
   "discord_alive": true,
-  "learner_alive": false,
+  "learner_alive": true,
   "obsidian_alive": false,
   "entry_policy": {
     "min_hold_seconds": 2.0,
@@ -56,31 +56,87 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 1829,
-    "trades": 1268,
-    "wins": 266,
-    "losses": 1002,
-    "pnl_sol": -6.105759291746028,
+    "completed_test_reviews": 3985,
+    "trades": 2814,
+    "wins": 635,
+    "losses": 2179,
+    "pnl_sol": -106.70869687384926,
     "best_test": {
-      "run": "20260920_232146",
-      "test": 3,
-      "trades": 1,
-      "wins": 1,
+      "run": "20261003_010932",
+      "test": 1463,
+      "trades": 2,
+      "wins": 2,
       "losses": 0,
-      "pnl_sol": 0.0374715
+      "pnl_sol": 0.406703601775379
     },
     "duplicates_removed": 1589,
     "unreadable_rows": 0,
-    "scope": "Deduplicated saved Obsidian test reviews; historical sizes and cost assumptions vary. This is not the current-run ledger."
+    "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
     {
-      "run": "20261009_055316",
-      "test": 1,
-      "trades": 0,
+      "run": "20261003_010932",
+      "test": 1571,
+      "trades": 1,
       "wins": 0,
-      "losses": 0,
-      "pnl_sol": 0.0
+      "losses": 1,
+      "pnl_sol": -0.09637456212204765
+    },
+    {
+      "run": "20261008_031922",
+      "test": 3,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.13051872939050346
+    },
+    {
+      "run": "20261008_033817",
+      "test": 2,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.07612968233400008
+    },
+    {
+      "run": "20261008_033817",
+      "test": 3,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.08273644578050454
+    },
+    {
+      "run": "20261008_225645",
+      "test": 28,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.15851709937751568
+    },
+    {
+      "run": "20261008_225645",
+      "test": 30,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.10987090586742743
+    },
+    {
+      "run": "20261008_225645",
+      "test": 35,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.121600039464004
+    },
+    {
+      "run": "20261008_225645",
+      "test": 37,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.10596220975010673
     }
   ],
   "risk_zones": [
@@ -123,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T09:58:39.673998+00:00",
+  "service_health_checked_at_utc": "2026-10-09T09:59:32.633125+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
