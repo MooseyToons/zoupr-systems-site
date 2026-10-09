@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-09T15:07:52.133826+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T15:08:04.278364+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T15:08:11.569406+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -52,7 +52,7 @@
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
-    "qwen_review_at_utc": "2026-10-09T14:53:11.097038+00:00",
+    "qwen_review_at_utc": "2026-10-09T15:08:11.124115+00:00",
     "qwen_policy_changed": false
   },
   "research_memory": {
@@ -179,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T15:08:09.642731+00:00",
+  "service_health_checked_at_utc": "2026-10-09T15:08:17.894825+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
