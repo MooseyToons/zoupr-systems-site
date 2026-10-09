@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-09T10:06:56.819579+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T10:07:00.050687+00:00",
+  "updated_at_utc": "2026-10-09T10:07:17.313876+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T10:07:21.981687+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 244,
-  "http_errors": 6,
+  "feed_polls": 283,
+  "http_errors": 7,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 3,
-    "sample_changes": 121,
+    "sample_changes": 136,
     "entry_confirmations": 4,
     "adaptive_arms": 1,
     "adaptive_rejects": 0,
@@ -50,9 +50,9 @@
     "measured_tests": 1,
     "python_read_at_utc": "2026-10-09T10:04:32.033991+00:00",
     "decision": "hold_current_rules",
-    "qwen_review_current_run": false,
-    "qwen_state": "awaiting_current_run",
-    "qwen_review_at_utc": null,
+    "qwen_review_current_run": true,
+    "qwen_state": "reviewed",
+    "qwen_review_at_utc": "2026-10-09T10:07:15.845318+00:00",
     "qwen_policy_changed": false
   },
   "research_memory": {
@@ -123,6 +123,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T10:07:05.100337+00:00",
+  "service_health_checked_at_utc": "2026-10-09T10:07:26.223399+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
