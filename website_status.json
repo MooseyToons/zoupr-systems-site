@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-09T12:59:55.062074+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T13:00:00.966314+00:00",
+  "updated_at_utc": "2026-10-09T13:00:43.842529+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T13:00:59.078079+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 449,
-  "http_errors": 11,
+  "feed_polls": 535,
+  "http_errors": 15,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -35,8 +35,8 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 1,
-    "sample_changes": 93,
-    "entry_confirmations": 6,
+    "sample_changes": 101,
+    "entry_confirmations": 8,
     "adaptive_arms": 1,
     "adaptive_rejects": 1,
     "adaptive_entries": 0,
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 1,
-    "measured_tests": 1,
-    "python_read_at_utc": "2026-10-09T12:55:35.446643+00:00",
+    "python_read_test": 2,
+    "measured_tests": 2,
+    "python_read_at_utc": "2026-10-09T13:00:53.673902+00:00",
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -77,6 +77,14 @@
     {
       "run": "20261009_085025",
       "test": 1,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
+    },
+    {
+      "run": "20261009_085025",
+      "test": 2,
       "trades": 0,
       "wins": 0,
       "losses": 0,
@@ -123,6 +131,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T13:00:09.885749+00:00",
+  "service_health_checked_at_utc": "2026-10-09T13:01:03.679501+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
