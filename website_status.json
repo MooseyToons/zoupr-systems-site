@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-09T19:44:55.834491+00:00",
-  "snapshot_generated_at_utc": "2026-10-09T19:45:16.415374+00:00",
+  "snapshot_generated_at_utc": "2026-10-09T19:45:23.668369+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 81,
-    "measured_tests": 81,
-    "python_read_at_utc": "2026-10-09T19:39:43.103042+00:00",
+    "python_read_test": 82,
+    "measured_tests": 82,
+    "python_read_at_utc": "2026-10-09T19:45:20.496035+00:00",
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -74,14 +74,6 @@
     "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
-    {
-      "run": "20261009_085025",
-      "test": 74,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.13963119512994537
-    },
     {
       "run": "20261009_085025",
       "test": 75,
@@ -137,6 +129,14 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261009_085025",
+      "test": 82,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
     }
   ],
   "risk_zones": [
@@ -179,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-09T19:45:21.837431+00:00",
+  "service_health_checked_at_utc": "2026-10-09T19:45:29.113999+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
