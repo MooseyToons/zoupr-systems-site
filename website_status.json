@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T09:14:01.846201+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T09:14:07.227358+00:00",
+  "updated_at_utc": "2026-10-10T09:14:49.598254+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T09:15:05.635586+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 486,
-  "http_errors": 4,
+  "feed_polls": 577,
+  "http_errors": 5,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 89,
-    "measured_tests": 89,
-    "python_read_at_utc": "2026-10-10T09:09:37.563658+00:00",
+    "python_read_test": 90,
+    "measured_tests": 90,
+    "python_read_at_utc": "2026-10-10T09:14:55.949140+00:00",
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -74,14 +74,6 @@
     "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
-    {
-      "run": "20261009_211704",
-      "test": 82,
-      "trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "pnl_sol": 0.0
-    },
     {
       "run": "20261009_211704",
       "test": 83,
@@ -137,6 +129,14 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261009_211704",
+      "test": 90,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
     }
   ],
   "risk_zones": [
@@ -179,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T09:14:13.734080+00:00",
+  "service_health_checked_at_utc": "2026-10-10T09:15:10.891281+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
