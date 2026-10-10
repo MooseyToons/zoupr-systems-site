@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T14:27:41.316993+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T14:27:42.072579+00:00",
+  "updated_at_utc": "2026-10-10T14:28:35.432130+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T14:28:40.482512+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -1.2413846058030158,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 11,
-  "http_errors": 0,
+  "feed_polls": 108,
+  "http_errors": 2,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,11 +34,11 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 3,
-    "sample_changes": 22,
-    "entry_confirmations": 1,
-    "adaptive_arms": 1,
-    "adaptive_rejects": 0,
+    "watchlist_count": 7,
+    "sample_changes": 184,
+    "entry_confirmations": 29,
+    "adaptive_arms": 9,
+    "adaptive_rejects": 1,
     "adaptive_entries": 0,
     "buys": 0
   },
@@ -56,11 +56,11 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 4319,
-    "trades": 2848,
+    "completed_test_reviews": 4320,
+    "trades": 2849,
     "wins": 639,
-    "losses": 2209,
-    "pnl_sol": -109.1820875433265,
+    "losses": 2210,
+    "pnl_sol": -109.29192743719643,
     "best_test": {
       "run": "20261003_010932",
       "test": 1463,
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T14:27:44.949149+00:00",
+  "service_health_checked_at_utc": "2026-10-10T14:28:47.225019+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
