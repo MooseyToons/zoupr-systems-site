@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T15:10:18.218636+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T15:10:23.739140+00:00",
+  "updated_at_utc": "2026-10-10T15:11:00.142773+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T15:11:15.008913+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -1.64400054699968,
   "open_positions": 1,
   "feed_ok": true,
-  "feed_polls": 370,
-  "http_errors": 3,
+  "feed_polls": 440,
+  "http_errors": 6,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 8,
-    "sample_changes": 250,
+    "sample_changes": 260,
     "entry_confirmations": 123,
     "adaptive_arms": 7,
     "adaptive_rejects": 2,
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 33,
-    "measured_tests": 33,
-    "python_read_at_utc": "2026-10-10T15:06:40.992711+00:00",
+    "python_read_test": 34,
+    "measured_tests": 34,
+    "python_read_at_utc": "2026-10-10T15:11:06.428200+00:00",
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -56,11 +56,11 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 4328,
-    "trades": 2854,
+    "completed_test_reviews": 4329,
+    "trades": 2855,
     "wins": 640,
-    "losses": 2214,
-    "pnl_sol": -109.69454337839309,
+    "losses": 2215,
+    "pnl_sol": -109.73314310963444,
     "best_test": {
       "run": "20261003_010932",
       "test": 1463,
@@ -74,14 +74,6 @@
     "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
-    {
-      "run": "20261010_084525",
-      "test": 26,
-      "trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "pnl_sol": 0.0
-    },
     {
       "run": "20261010_084525",
       "test": 27,
@@ -137,11 +129,19 @@
       "wins": 0,
       "losses": 1,
       "pnl_sol": -0.16523454089993994
+    },
+    {
+      "run": "20261010_084525",
+      "test": 34,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.03859973124135041
     }
   ],
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T15:10:27.869805+00:00",
+  "service_health_checked_at_utc": "2026-10-10T15:11:20.085193+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
