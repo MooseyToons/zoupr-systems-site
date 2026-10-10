@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T22:33:09.610599+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T22:33:10.504820+00:00",
+  "updated_at_utc": "2026-10-10T22:34:11.151298+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T22:34:16.436393+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -3.3944741188126955,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 1,
-  "http_errors": 0,
+  "feed_polls": 114,
+  "http_errors": 3,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,10 +34,10 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 0,
-    "sample_changes": 0,
-    "entry_confirmations": 0,
-    "adaptive_arms": 0,
+    "watchlist_count": 3,
+    "sample_changes": 12,
+    "entry_confirmations": 45,
+    "adaptive_arms": 2,
     "adaptive_rejects": 0,
     "adaptive_entries": 0,
     "buys": 0
@@ -56,11 +56,11 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 4418,
-    "trades": 2875,
+    "completed_test_reviews": 4419,
+    "trades": 2876,
     "wins": 644,
-    "losses": 2231,
-    "pnl_sol": -111.33003074598612,
+    "losses": 2232,
+    "pnl_sol": -111.44501695020611,
     "best_test": {
       "run": "20261003_010932",
       "test": 1463,
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T22:33:16.968659+00:00",
+  "service_health_checked_at_utc": "2026-10-10T22:34:19.250768+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
