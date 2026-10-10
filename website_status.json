@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-10T13:57:24.778269+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T13:57:25.698567+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T13:57:40.379419+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 17,
-    "measured_tests": 17,
-    "python_read_at_utc": "2026-10-10T13:55:54.006601+00:00",
+    "python_read_test": 18,
+    "measured_tests": 18,
+    "python_read_at_utc": "2026-10-10T13:57:33.293059+00:00",
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "awaiting_current_run",
@@ -74,14 +74,6 @@
     "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
-    {
-      "run": "20261010_084525",
-      "test": 10,
-      "trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "pnl_sol": 0.0
-    },
     {
       "run": "20261010_084525",
       "test": 11,
@@ -137,11 +129,19 @@
       "wins": 0,
       "losses": 1,
       "pnl_sol": -0.10466905602586063
+    },
+    {
+      "run": "20261010_084525",
+      "test": 18,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "pnl_sol": -0.1358501746416605
     }
   ],
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T13:57:31.950250+00:00",
+  "service_health_checked_at_utc": "2026-10-10T13:57:43.874812+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
