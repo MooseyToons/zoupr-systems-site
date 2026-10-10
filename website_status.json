@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T14:13:23.371415+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T14:13:35.783656+00:00",
+  "updated_at_utc": "2026-10-10T14:13:49.174648+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T14:13:50.299187+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -10,9 +10,9 @@
   "state": "running",
   "status_text": "Continuous paper tests; profitability unproven",
   "run_id": "20261010_084525",
-  "test": 21,
+  "test": 22,
   "test_limit": "continuous",
-  "completed_tests": 20,
+  "completed_tests": 21,
   "policy_role": "champion",
   "trades": 12,
   "wins": 1,
@@ -20,8 +20,8 @@
   "pnl_sol": -1.0306157502931426,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 512,
-  "http_errors": 8,
+  "feed_polls": 11,
+  "http_errors": 1,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,13 +34,13 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 9,
-    "sample_changes": 503,
-    "entry_confirmations": 319,
-    "adaptive_arms": 26,
-    "adaptive_rejects": 1,
-    "adaptive_entries": 1,
-    "buys": 1
+    "watchlist_count": 1,
+    "sample_changes": 4,
+    "entry_confirmations": 0,
+    "adaptive_arms": 0,
+    "adaptive_rejects": 0,
+    "adaptive_entries": 0,
+    "buys": 0
   },
   "workers": {
     "categories": 7,
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T14:13:42.056760+00:00",
+  "service_health_checked_at_utc": "2026-10-10T14:13:54.075330+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
