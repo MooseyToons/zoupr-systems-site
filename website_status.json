@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T01:14:32.178039+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T01:14:36.327837+00:00",
+  "updated_at_utc": "2026-10-10T01:14:37.669415+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T01:14:50.991874+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -1.243267551127826,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 231,
-  "http_errors": 7,
+  "feed_polls": 241,
+  "http_errors": 8,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 4,
-    "sample_changes": 144,
+    "sample_changes": 162,
     "entry_confirmations": 0,
     "adaptive_arms": 0,
     "adaptive_rejects": 0,
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 146,
-    "measured_tests": 146,
-    "python_read_at_utc": "2026-10-10T01:12:11.875156+00:00",
+    "python_read_test": 147,
+    "measured_tests": 147,
+    "python_read_at_utc": "2026-10-10T01:14:47.242764+00:00",
     "decision": "hold_current_rules",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -74,14 +74,6 @@
     "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
-    {
-      "run": "20261009_085025",
-      "test": 139,
-      "trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "pnl_sol": 0.0
-    },
     {
       "run": "20261009_085025",
       "test": 140,
@@ -137,6 +129,14 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261009_085025",
+      "test": 147,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
     }
   ],
   "risk_zones": [
@@ -179,6 +179,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T01:14:42.011367+00:00",
+  "service_health_checked_at_utc": "2026-10-10T01:14:56.381833+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
