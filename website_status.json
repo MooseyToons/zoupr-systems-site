@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T17:17:04.447300+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T17:17:08.037311+00:00",
+  "updated_at_utc": "2026-10-10T17:17:58.737676+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T17:17:59.148721+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -18,10 +18,10 @@
   "wins": 4,
   "losses": 22,
   "pnl_sol": -1.9019566202544995,
-  "open_positions": 0,
+  "open_positions": 1,
   "feed_ok": true,
-  "feed_polls": 105,
-  "http_errors": 1,
+  "feed_polls": 189,
+  "http_errors": 3,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,13 +34,13 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 6,
-    "sample_changes": 213,
-    "entry_confirmations": 67,
-    "adaptive_arms": 8,
-    "adaptive_rejects": 1,
-    "adaptive_entries": 0,
-    "buys": 0
+    "watchlist_count": 2,
+    "sample_changes": 368,
+    "entry_confirmations": 166,
+    "adaptive_arms": 16,
+    "adaptive_rejects": 3,
+    "adaptive_entries": 1,
+    "buys": 1
   },
   "workers": {
     "categories": 7,
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T17:17:15.094848+00:00",
+  "service_health_checked_at_utc": "2026-10-10T17:18:02.379122+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
