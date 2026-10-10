@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T15:19:19.348718+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T15:19:24.099190+00:00",
+  "updated_at_utc": "2026-10-10T15:20:17.807367+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T15:20:22.531229+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -1.794006916809261,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 1,
-  "http_errors": 0,
+  "feed_polls": 111,
+  "http_errors": 2,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,10 +34,10 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 0,
-    "sample_changes": 0,
-    "entry_confirmations": 0,
-    "adaptive_arms": 0,
+    "watchlist_count": 5,
+    "sample_changes": 22,
+    "entry_confirmations": 18,
+    "adaptive_arms": 1,
     "adaptive_rejects": 0,
     "adaptive_entries": 0,
     "buys": 0
@@ -56,11 +56,11 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 4330,
-    "trades": 2855,
+    "completed_test_reviews": 4331,
+    "trades": 2856,
     "wins": 640,
-    "losses": 2215,
-    "pnl_sol": -109.73314310963444,
+    "losses": 2216,
+    "pnl_sol": -109.84454974820268,
     "best_test": {
       "run": "20261003_010932",
       "test": 1463,
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T15:19:25.785740+00:00",
+  "service_health_checked_at_utc": "2026-10-10T15:20:28.073629+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
