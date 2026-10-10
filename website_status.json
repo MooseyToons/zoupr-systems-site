@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T12:43:10.610446+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T12:43:11.616293+00:00",
+  "updated_at_utc": "2026-10-10T12:43:47.120701+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T12:44:02.533654+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 278,
-  "http_errors": 5,
+  "feed_polls": 347,
+  "http_errors": 8,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,10 +34,10 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 7,
-    "sample_changes": 63,
-    "entry_confirmations": 53,
-    "adaptive_arms": 5,
+    "watchlist_count": 8,
+    "sample_changes": 104,
+    "entry_confirmations": 56,
+    "adaptive_arms": 6,
     "adaptive_rejects": 0,
     "adaptive_entries": 0,
     "buys": 0
@@ -45,11 +45,11 @@
   "workers": {
     "categories": 7,
     "evidence_current": true,
-    "python_read_current_run": false,
-    "python_read_test": null,
-    "measured_tests": null,
-    "python_read_at_utc": null,
-    "decision": null,
+    "python_read_current_run": true,
+    "python_read_test": 1,
+    "measured_tests": 1,
+    "python_read_at_utc": "2026-10-10T12:43:57.418540+00:00",
+    "decision": "hold_current_rules",
     "qwen_review_current_run": false,
     "qwen_state": "awaiting_current_run",
     "qwen_review_at_utc": null,
@@ -75,68 +75,12 @@
   },
   "recent_tests": [
     {
-      "run": "20261009_085025",
-      "test": 67,
-      "trades": 1,
+      "run": "20261010_084036",
+      "test": 1,
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.05072206435341475
-    },
-    {
-      "run": "20261009_085025",
-      "test": 73,
-      "trades": 2,
-      "wins": 1,
-      "losses": 1,
-      "pnl_sol": -0.06251435035594222
-    },
-    {
-      "run": "20261009_085025",
-      "test": 74,
-      "trades": 1,
-      "wins": 1,
       "losses": 0,
-      "pnl_sol": 0.13963119512994537
-    },
-    {
-      "run": "20261009_085025",
-      "test": 93,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.04817470833662374
-    },
-    {
-      "run": "20261009_085025",
-      "test": 96,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.04098177799849645
-    },
-    {
-      "run": "20261009_085025",
-      "test": 103,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.12796653629198906
-    },
-    {
-      "run": "20261009_085025",
-      "test": 123,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.0808592693129
-    },
-    {
-      "run": "20261009_085025",
-      "test": 130,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.10533521973206528
+      "pnl_sol": 0.0
     }
   ],
   "risk_zones": [
@@ -179,6 +123,6 @@
   ],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T12:43:15.674992+00:00",
+  "service_health_checked_at_utc": "2026-10-10T12:44:07.984996+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
