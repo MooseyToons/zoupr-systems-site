@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-10T17:38:14.286876+00:00",
-  "snapshot_generated_at_utc": "2026-10-10T17:38:19.499504+00:00",
+  "updated_at_utc": "2026-10-10T17:39:17.285215+00:00",
+  "snapshot_generated_at_utc": "2026-10-10T17:39:18.025507+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -2.253952778914544,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 20,
-  "http_errors": 0,
+  "feed_polls": 133,
+  "http_errors": 4,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -34,10 +34,10 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 4,
-    "sample_changes": 28,
-    "entry_confirmations": 1,
-    "adaptive_arms": 0,
+    "watchlist_count": 6,
+    "sample_changes": 153,
+    "entry_confirmations": 25,
+    "adaptive_arms": 2,
     "adaptive_rejects": 0,
     "adaptive_entries": 0,
     "buys": 0
@@ -56,11 +56,11 @@
     "qwen_policy_changed": false
   },
   "research_memory": {
-    "completed_test_reviews": 4358,
-    "trades": 2861,
+    "completed_test_reviews": 4359,
+    "trades": 2862,
     "wins": 641,
-    "losses": 2220,
-    "pnl_sol": -110.25916070010928,
+    "losses": 2221,
+    "pnl_sol": -110.30449561030795,
     "best_test": {
       "run": "20261003_010932",
       "test": 1463,
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-10T17:38:22.057406+00:00",
+  "service_health_checked_at_utc": "2026-10-10T17:39:24.454549+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
