@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-12T01:42:12.941162+00:00",
-  "snapshot_generated_at_utc": "2026-10-12T01:42:16.065243+00:00",
+  "snapshot_generated_at_utc": "2026-10-12T01:42:23.328465+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 9,
-    "measured_tests": 9,
-    "python_read_at_utc": "2026-10-12T01:36:52.560003+00:00",
+    "python_read_test": 10,
+    "measured_tests": 10,
+    "python_read_at_utc": "2026-10-12T01:42:19.882157+00:00",
     "decision": "forward_paper_trial",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -74,14 +74,6 @@
     "scope": "Deduplicated saved reviews plus audited laptop/desktop records; historical sizes and cost assumptions vary. This is not the current-run ledger."
   },
   "recent_tests": [
-    {
-      "run": "20261011_204731",
-      "test": 2,
-      "trades": 0,
-      "wins": 0,
-      "losses": 0,
-      "pnl_sol": 0.0
-    },
     {
       "run": "20261011_204731",
       "test": 3,
@@ -137,11 +129,19 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261011_204731",
+      "test": 10,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
     }
   ],
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-12T01:42:22.640438+00:00",
+  "service_health_checked_at_utc": "2026-10-12T01:42:30.241501+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
