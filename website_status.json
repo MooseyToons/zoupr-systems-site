@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-13T04:51:43.534443+00:00",
-  "snapshot_generated_at_utc": "2026-10-13T23:49:48.952645+00:00",
+  "snapshot_generated_at_utc": "2026-10-13T23:49:54.258488+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -139,9 +139,54 @@
       "pnl_sol": 0.0
     }
   ],
+  "callouts": {
+    "state": "connected",
+    "accepted_total": 760,
+    "last_capture_epoch": 1791935388.4000325,
+    "source": "visible Pump Hot and Latest callout cards",
+    "native_api_connected": false,
+    "paper_trial_current": true,
+    "paper_trial": {
+      "closed": 1,
+      "wins": 0,
+      "net_sol": -0.12349519567953215,
+      "open": 0,
+      "missed": 362,
+      "armed": 0
+    },
+    "rejection_causes": {
+      "confirmation_updates": 4,
+      "total_quoted_cost": 4,
+      "minimum_hold": 1,
+      "price_improvement": 2
+    },
+    "separate_from_main_trader": true
+  },
+  "brain_memory": {
+    "trade_count": 1447,
+    "episode_count": 2459,
+    "matched_trade_count": 1292,
+    "lesson_count": 8,
+    "cost_model": null,
+    "evidence_current": true,
+    "read_current_run": true
+  },
+  "research_experiment": {
+    "status": "probation",
+    "pause_reason": null,
+    "net_sol": -0.3793002993200585,
+    "experiment_count": 5,
+    "neural_weight_training": false
+  },
+  "historical_unresolved": {
+    "count": 1,
+    "realized": false,
+    "estimated_unrealized_pnl_sol": -0.4373997882999999,
+    "valuation_epoch": 1791934955.19958
+  },
   "risk_zones": [],
-  "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
+  "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-13T23:49:53.736820+00:00",
+  "service_health_checked_at_utc": "2026-10-13T23:50:02.252128+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
