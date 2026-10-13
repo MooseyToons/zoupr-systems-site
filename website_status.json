@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-13T04:51:43.534443+00:00",
-  "snapshot_generated_at_utc": "2026-10-13T23:48:49.617679+00:00",
+  "snapshot_generated_at_utc": "2026-10-13T23:49:48.952645+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
   "state": "stopped",
-  "status_text": "Waiting for a fresh paper-run update",
+  "status_text": "Waiting for a fresh runner observation",
   "run_id": "20261012_235837",
   "test": 10,
   "test_limit": "continuous",
@@ -142,6 +142,6 @@
   "risk_zones": [],
   "latest_change": "October 9: automatic publishing restored; current test evidence reaches categorized workers before Python review. 1 SOL paper orders include modeled costs; no profitable forward sample established.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-13T23:48:54.632384+00:00",
+  "service_health_checked_at_utc": "2026-10-13T23:49:53.736820+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
