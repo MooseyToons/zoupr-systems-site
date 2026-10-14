@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-14T00:24:36.991407+00:00",
-  "snapshot_generated_at_utc": "2026-10-14T00:24:40.607324+00:00",
+  "updated_at_utc": "2026-10-14T00:24:41.997089+00:00",
+  "snapshot_generated_at_utc": "2026-10-14T00:24:55.417431+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,7 +20,7 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 582,
+  "feed_polls": 592,
   "http_errors": 15,
   "discord_alive": true,
   "learner_alive": true,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 3,
-    "sample_changes": 12,
+    "sample_changes": 13,
     "entry_confirmations": 0,
     "adaptive_arms": 0,
     "adaptive_rejects": 0,
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 1,
-    "measured_tests": 1,
-    "python_read_at_utc": "2026-10-14T00:19:24.316161+00:00",
+    "python_read_test": 2,
+    "measured_tests": 2,
+    "python_read_at_utc": "2026-10-14T00:24:52.078403+00:00",
     "decision": "forward_paper_trial",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -81,12 +81,20 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261013_201413",
+      "test": 2,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
     }
   ],
   "callouts": {
     "state": "connected",
     "accepted_total": 783,
-    "last_capture_epoch": 1791937473.437289,
+    "last_capture_epoch": 1791937488.457018,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -108,7 +116,7 @@
   },
   "brain_memory": {
     "trade_count": 1447,
-    "episode_count": 2465,
+    "episode_count": 2466,
     "matched_trade_count": 3,
     "lesson_count": 1,
     "cost_model": "jupiter-min-quote-cushion-v1",
@@ -131,6 +139,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-14T00:24:43.310801+00:00",
+  "service_health_checked_at_utc": "2026-10-14T00:25:01.138009+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
