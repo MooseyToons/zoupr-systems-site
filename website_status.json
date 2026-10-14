@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-14T00:40:14.620683+00:00",
-  "snapshot_generated_at_utc": "2026-10-14T01:06:48.530987+00:00",
+  "snapshot_generated_at_utc": "2026-10-14T01:07:03.330932+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "paused",
-  "status_text": "Paper research paused: no eligible opportunities",
+  "state": "stale",
+  "status_text": "Waiting for a fresh runner observation",
   "run_id": "20261013_201413",
   "test": 5,
   "test_limit": "continuous",
@@ -164,10 +164,10 @@
     "read_current_run": true
   },
   "research_experiment": {
-    "status": "paused",
-    "pause_reason": "no eligible opportunities",
+    "status": "probation",
+    "pause_reason": null,
     "net_sol": -0.3793002993200585,
-    "experiment_count": 5,
+    "experiment_count": 6,
     "neural_weight_training": false
   },
   "historical_unresolved": {
@@ -179,6 +179,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-14T01:06:52.097535+00:00",
+  "service_health_checked_at_utc": "2026-10-14T01:07:05.162998+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
