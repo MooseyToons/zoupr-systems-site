@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-14T00:35:32.121461+00:00",
-  "snapshot_generated_at_utc": "2026-10-14T00:35:36.110916+00:00",
+  "updated_at_utc": "2026-10-14T00:35:37.126942+00:00",
+  "snapshot_generated_at_utc": "2026-10-14T00:35:51.039837+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,7 +20,7 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 581,
+  "feed_polls": 591,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": true,
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 3,
-    "measured_tests": 3,
-    "python_read_at_utc": "2026-10-14T00:30:18.900621+00:00",
+    "python_read_test": 4,
+    "measured_tests": 4,
+    "python_read_at_utc": "2026-10-14T00:35:45.892701+00:00",
     "decision": "forward_paper_trial",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -97,12 +97,20 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261013_201413",
+      "test": 4,
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "pnl_sol": 0.0
     }
   ],
   "callouts": {
     "state": "connected",
     "accepted_total": 791,
-    "last_capture_epoch": 1791938133.4129245,
+    "last_capture_epoch": 1791938148.4149692,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -124,7 +132,7 @@
   },
   "brain_memory": {
     "trade_count": 1447,
-    "episode_count": 2467,
+    "episode_count": 2468,
     "matched_trade_count": 3,
     "lesson_count": 1,
     "cost_model": "jupiter-min-quote-cushion-v1",
@@ -147,6 +155,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-14T00:35:37.712411+00:00",
+  "service_health_checked_at_utc": "2026-10-14T00:35:55.562971+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
