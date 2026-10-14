@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-14T01:38:48.045752+00:00",
-  "snapshot_generated_at_utc": "2026-10-14T01:38:53.229453+00:00",
+  "updated_at_utc": "2026-10-14T01:39:03.066123+00:00",
+  "snapshot_generated_at_utc": "2026-10-14T01:39:08.052574+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,8 +20,8 @@
   "pnl_sol": -0.057856444499999826,
   "open_positions": 0,
   "feed_ok": true,
-  "feed_polls": 362,
-  "http_errors": 22,
+  "feed_polls": 392,
+  "http_errors": 24,
   "discord_alive": true,
   "learner_alive": true,
   "obsidian_alive": true,
@@ -118,7 +118,7 @@
   "callouts": {
     "state": "connected",
     "accepted_total": 831,
-    "last_capture_epoch": 1791941928.403413,
+    "last_capture_epoch": 1791941943.3937888,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -127,7 +127,7 @@
       "wins": 0,
       "net_sol": -0.12349519567953215,
       "open": 0,
-      "missed": 380,
+      "missed": 381,
       "armed": 0
     },
     "rejection_causes": {
@@ -162,6 +162,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-14T01:38:55.848472+00:00",
+  "service_health_checked_at_utc": "2026-10-14T01:39:13.689611+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
