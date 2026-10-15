@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-15T06:07:56.510004+00:00",
-  "snapshot_generated_at_utc": "2026-10-15T06:40:21.915034+00:00",
+  "snapshot_generated_at_utc": "2026-10-15T06:40:36.670883+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 5,
-    "measured_tests": 5,
-    "python_read_at_utc": "2026-10-15T06:35:03.088841+00:00",
+    "python_read_test": 6,
+    "measured_tests": 6,
+    "python_read_at_utc": "2026-10-15T06:40:32.211093+00:00",
     "decision": "forward_paper_trial",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -113,12 +113,20 @@
       "wins": 0,
       "losses": 0,
       "pnl_sol": 0.0
+    },
+    {
+      "run": "20261015_020739",
+      "test": 6,
+      "trades": 1,
+      "wins": 1,
+      "losses": 0,
+      "pnl_sol": 0.01157356272800003
     }
   ],
   "callouts": {
     "state": "connected",
     "accepted_total": 1815,
-    "last_capture_epoch": 1792046414.5829377,
+    "last_capture_epoch": 1792046429.5616748,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -139,9 +147,9 @@
     "separate_from_main_trader": true
   },
   "brain_memory": {
-    "trade_count": 1449,
-    "episode_count": 2496,
-    "matched_trade_count": 5,
+    "trade_count": 1450,
+    "episode_count": 2497,
+    "matched_trade_count": 6,
     "lesson_count": 2,
     "cost_model": "jupiter-min-quote-cushion-v1",
     "evidence_current": true,
@@ -163,6 +171,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-15T06:40:23.036772+00:00",
+  "service_health_checked_at_utc": "2026-10-15T06:40:41.084310+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
