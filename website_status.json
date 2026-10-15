@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-15T06:07:56.510004+00:00",
-  "snapshot_generated_at_utc": "2026-10-15T06:29:33.640163+00:00",
+  "snapshot_generated_at_utc": "2026-10-15T06:29:41.087303+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -46,9 +46,9 @@
     "categories": 7,
     "evidence_current": true,
     "python_read_current_run": true,
-    "python_read_test": 3,
-    "measured_tests": 3,
-    "python_read_at_utc": "2026-10-15T06:24:07.312459+00:00",
+    "python_read_test": 4,
+    "measured_tests": 4,
+    "python_read_at_utc": "2026-10-15T06:29:34.872911+00:00",
     "decision": "forward_paper_trial",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
@@ -132,7 +132,7 @@
   },
   "brain_memory": {
     "trade_count": 1449,
-    "episode_count": 2494,
+    "episode_count": 2495,
     "matched_trade_count": 5,
     "lesson_count": 2,
     "cost_model": "jupiter-min-quote-cushion-v1",
@@ -155,6 +155,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-15T06:29:37.502857+00:00",
+  "service_health_checked_at_utc": "2026-10-15T06:29:45.572850+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
