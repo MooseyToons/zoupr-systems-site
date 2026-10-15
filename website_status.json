@@ -1,14 +1,14 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-14T02:19:32.316168+00:00",
-  "snapshot_generated_at_utc": "2026-10-15T05:28:00.249399+00:00",
+  "snapshot_generated_at_utc": "2026-10-15T05:28:15.281457+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
   "state": "paused",
-  "status_text": "Paper research paused: no eligible opportunities",
+  "status_text": "Paper research paused: persistent research pause; source review required",
   "run_id": "20261013_210723",
   "test": 13,
   "test_limit": "continuous",
@@ -142,7 +142,7 @@
   "callouts": {
     "state": "connected",
     "accepted_total": 1787,
-    "last_capture_epoch": 1792042079.5454524,
+    "last_capture_epoch": 1792042094.5494409,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -172,10 +172,10 @@
     "read_current_run": true
   },
   "research_experiment": {
-    "status": "paused",
-    "pause_reason": "no eligible opportunities",
+    "status": "probation",
+    "pause_reason": null,
     "net_sol": -0.4371567438200583,
-    "experiment_count": 6,
+    "experiment_count": 7,
     "neural_weight_training": false
   },
   "historical_unresolved": {
@@ -187,6 +187,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-15T05:28:05.693584+00:00",
+  "service_health_checked_at_utc": "2026-10-15T05:28:19.401928+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
