@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-15T06:07:56.510004+00:00",
-  "snapshot_generated_at_utc": "2026-10-17T15:38:06.624683+00:00",
+  "snapshot_generated_at_utc": "2026-10-17T15:38:21.557267+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -52,7 +52,7 @@
     "decision": "forward_paper_trial",
     "qwen_review_current_run": true,
     "qwen_state": "reviewed",
-    "qwen_review_at_utc": "2026-10-17T15:23:15.797875+00:00",
+    "qwen_review_at_utc": "2026-10-17T15:38:19.808545+00:00",
     "qwen_policy_changed": false
   },
   "research_memory": {
@@ -141,8 +141,8 @@
   ],
   "callouts": {
     "state": "connected",
-    "accepted_total": 3789,
-    "last_capture_epoch": 1792251479.5561812,
+    "accepted_total": 3790,
+    "last_capture_epoch": 1792251494.5841658,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -187,6 +187,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-17T15:38:08.970701+00:00",
+  "service_health_checked_at_utc": "2026-10-17T15:38:24.046072+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
