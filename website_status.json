@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-21T02:03:42.158521+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T02:03:45.072046+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T02:03:52.425682+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -75,68 +75,12 @@
   },
   "recent_tests": [
     {
-      "run": "20261012_224648",
-      "test": 3,
-      "trades": 2,
-      "wins": 0,
-      "losses": 2,
-      "pnl_sol": -0.2694012711470588
-    },
-    {
-      "run": "20261012_235837",
-      "test": 4,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.08897318638099994
-    },
-    {
-      "run": "20261012_235837",
-      "test": 6,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.03809241200899982
-    },
-    {
-      "run": "20261012_235837",
-      "test": 7,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.017166570217000077
-    },
-    {
-      "run": "20261013_210723",
+      "run": "20261020_215837",
       "test": 1,
-      "trades": 1,
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.057856444499999826
-    },
-    {
-      "run": "20261015_020739",
-      "test": 3,
-      "trades": 1,
-      "wins": 1,
       "losses": 0,
-      "pnl_sol": 0.01403736707399994
-    },
-    {
-      "run": "20261015_020739",
-      "test": 6,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.01157356272800003
-    },
-    {
-      "run": "20261015_020739",
-      "test": 14,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.09177203855899985
+      "pnl_sol": 0.0
     }
   ],
   "callouts": {
@@ -164,7 +108,7 @@
   },
   "brain_memory": {
     "trade_count": 1451,
-    "episode_count": 2506,
+    "episode_count": 2507,
     "matched_trade_count": 7,
     "lesson_count": 2,
     "cost_model": "jupiter-min-quote-cushion-v1",
@@ -187,6 +131,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T02:03:50.111375+00:00",
+  "service_health_checked_at_utc": "2026-10-21T02:03:58.362157+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
