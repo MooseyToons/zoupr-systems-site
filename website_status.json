@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-21T05:27:57.905008+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T05:28:00.572958+00:00",
+  "updated_at_utc": "2026-10-21T05:28:13.827616+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T05:28:15.596694+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -18,9 +18,9 @@
   "wins": 1,
   "losses": 0,
   "pnl_sol": 0.0071332261486289905,
-  "open_positions": 0,
+  "open_positions": 1,
   "feed_ok": false,
-  "feed_polls": 465,
+  "feed_polls": 493,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
@@ -34,13 +34,13 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 15,
-    "sample_changes": 200,
-    "entry_confirmations": 81,
-    "adaptive_arms": 3,
+    "watchlist_count": 14,
+    "sample_changes": 213,
+    "entry_confirmations": 114,
+    "adaptive_arms": 6,
     "adaptive_rejects": 1,
-    "adaptive_entries": 1,
-    "buys": 1
+    "adaptive_entries": 2,
+    "buys": 2
   },
   "workers": {
     "categories": 7,
@@ -141,8 +141,8 @@
   ],
   "callouts": {
     "state": "connected",
-    "accepted_total": 7088,
-    "last_capture_epoch": 1792560479.5826657,
+    "accepted_total": 7089,
+    "last_capture_epoch": 1792560494.5934389,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -187,6 +187,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T05:28:02.851360+00:00",
+  "service_health_checked_at_utc": "2026-10-21T05:28:21.309257+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
