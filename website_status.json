@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-21T05:27:09.600556+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T05:27:15.972316+00:00",
+  "updated_at_utc": "2026-10-21T05:27:25.972335+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T05:27:30.800406+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,7 +20,7 @@
   "pnl_sol": 0.0071332261486289905,
   "open_positions": 0,
   "feed_ok": false,
-  "feed_polls": 377,
+  "feed_polls": 407,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
@@ -34,10 +34,10 @@
   "entry_trial": "liquid-follow-through-v4-30s-1p5pp",
   "paper_buy_sol": 1.0,
   "entry_funnel": {
-    "watchlist_count": 14,
-    "sample_changes": 154,
-    "entry_confirmations": 21,
-    "adaptive_arms": 1,
+    "watchlist_count": 15,
+    "sample_changes": 165,
+    "entry_confirmations": 42,
+    "adaptive_arms": 2,
     "adaptive_rejects": 0,
     "adaptive_entries": 1,
     "buys": 1
@@ -142,7 +142,7 @@
   "callouts": {
     "state": "connected",
     "accepted_total": 7088,
-    "last_capture_epoch": 1792560434.5829916,
+    "last_capture_epoch": 1792560449.5727005,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -187,6 +187,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T05:27:17.703769+00:00",
+  "service_health_checked_at_utc": "2026-10-21T05:27:36.576702+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
