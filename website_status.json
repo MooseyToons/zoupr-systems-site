@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-21T05:28:40.693163+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T05:28:45.301710+00:00",
+  "updated_at_utc": "2026-10-21T05:28:45.858702+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T05:29:00.386846+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,7 +20,7 @@
   "pnl_sol": 0.05782323399236744,
   "open_positions": 0,
   "feed_ok": false,
-  "feed_polls": 544,
+  "feed_polls": 555,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 15,
-    "sample_changes": 237,
+    "sample_changes": 240,
     "entry_confirmations": 126,
     "adaptive_arms": 6,
     "adaptive_rejects": 3,
@@ -45,11 +45,11 @@
   "workers": {
     "categories": 7,
     "evidence_current": true,
-    "python_read_current_run": false,
-    "python_read_test": null,
-    "measured_tests": null,
-    "python_read_at_utc": null,
-    "decision": null,
+    "python_read_current_run": true,
+    "python_read_test": 1,
+    "measured_tests": 1,
+    "python_read_at_utc": "2026-10-21T05:28:56.882387+00:00",
+    "decision": "forward_paper_trial",
     "qwen_review_current_run": false,
     "qwen_state": "awaiting_current_run",
     "qwen_review_at_utc": null,
@@ -75,74 +75,18 @@
   },
   "recent_tests": [
     {
-      "run": "20261012_224648",
-      "test": 3,
-      "trades": 2,
-      "wins": 0,
-      "losses": 2,
-      "pnl_sol": -0.2694012711470588
-    },
-    {
-      "run": "20261012_235837",
-      "test": 4,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.08897318638099994
-    },
-    {
-      "run": "20261012_235837",
-      "test": 6,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.03809241200899982
-    },
-    {
-      "run": "20261012_235837",
-      "test": 7,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.017166570217000077
-    },
-    {
-      "run": "20261013_210723",
+      "run": "20261021_012338",
       "test": 1,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.057856444499999826
-    },
-    {
-      "run": "20261015_020739",
-      "test": 3,
-      "trades": 1,
-      "wins": 1,
+      "trades": 2,
+      "wins": 2,
       "losses": 0,
-      "pnl_sol": 0.01403736707399994
-    },
-    {
-      "run": "20261015_020739",
-      "test": 6,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.01157356272800003
-    },
-    {
-      "run": "20261015_020739",
-      "test": 14,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.09177203855899985
+      "pnl_sol": 0.05782323399236744
     }
   ],
   "callouts": {
     "state": "connected",
     "accepted_total": 7089,
-    "last_capture_epoch": 1792560524.582509,
+    "last_capture_epoch": 1792560539.5597413,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -163,13 +107,13 @@
     "separate_from_main_trader": true
   },
   "brain_memory": {
-    "trade_count": 1452,
-    "episode_count": 2510,
-    "matched_trade_count": 1293,
+    "trade_count": 1453,
+    "episode_count": 2511,
+    "matched_trade_count": 1294,
     "lesson_count": 8,
     "cost_model": "jupiter-min-quote-cushion-v1",
     "evidence_current": true,
-    "read_current_run": false
+    "read_current_run": true
   },
   "research_experiment": {
     "status": "probation",
@@ -187,6 +131,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T05:28:51.073417+00:00",
+  "service_health_checked_at_utc": "2026-10-21T05:29:05.408857+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
