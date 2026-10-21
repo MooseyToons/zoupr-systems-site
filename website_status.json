@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-10-21T02:03:42.158521+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T02:03:52.425682+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T02:03:59.782379+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -45,11 +45,11 @@
   "workers": {
     "categories": 7,
     "evidence_current": true,
-    "python_read_current_run": false,
-    "python_read_test": null,
-    "measured_tests": null,
-    "python_read_at_utc": null,
-    "decision": null,
+    "python_read_current_run": true,
+    "python_read_test": 1,
+    "measured_tests": 1,
+    "python_read_at_utc": "2026-10-21T02:03:50.474277+00:00",
+    "decision": "forward_paper_trial",
     "qwen_review_current_run": false,
     "qwen_state": "awaiting_current_run",
     "qwen_review_at_utc": null,
@@ -86,7 +86,7 @@
   "callouts": {
     "state": "connected",
     "accepted_total": 6977,
-    "last_capture_epoch": 1792548224.5737536,
+    "last_capture_epoch": 1792548239.5709834,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -113,7 +113,7 @@
     "lesson_count": 2,
     "cost_model": "jupiter-min-quote-cushion-v1",
     "evidence_current": true,
-    "read_current_run": false
+    "read_current_run": true
   },
   "research_experiment": {
     "status": "probation",
@@ -131,6 +131,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T02:03:58.362157+00:00",
+  "service_health_checked_at_utc": "2026-10-21T02:04:07.341729+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
