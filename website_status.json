@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-21T05:18:59.168978+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T05:19:04.779369+00:00",
+  "updated_at_utc": "2026-10-21T05:19:10.169004+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T05:19:19.627206+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,7 +20,7 @@
   "pnl_sol": 0.0,
   "open_positions": 0,
   "feed_ok": false,
-  "feed_polls": 542,
+  "feed_polls": 562,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
@@ -35,8 +35,8 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 19,
-    "sample_changes": 342,
-    "entry_confirmations": 124,
+    "sample_changes": 360,
+    "entry_confirmations": 144,
     "adaptive_arms": 6,
     "adaptive_rejects": 0,
     "adaptive_entries": 0,
@@ -75,74 +75,18 @@
   },
   "recent_tests": [
     {
-      "run": "20261012_224648",
-      "test": 3,
-      "trades": 2,
-      "wins": 0,
-      "losses": 2,
-      "pnl_sol": -0.2694012711470588
-    },
-    {
-      "run": "20261012_235837",
-      "test": 4,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.08897318638099994
-    },
-    {
-      "run": "20261012_235837",
-      "test": 6,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.03809241200899982
-    },
-    {
-      "run": "20261012_235837",
-      "test": 7,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.017166570217000077
-    },
-    {
-      "run": "20261013_210723",
+      "run": "20261021_011327",
       "test": 1,
-      "trades": 1,
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.057856444499999826
-    },
-    {
-      "run": "20261015_020739",
-      "test": 3,
-      "trades": 1,
-      "wins": 1,
       "losses": 0,
-      "pnl_sol": 0.01403736707399994
-    },
-    {
-      "run": "20261015_020739",
-      "test": 6,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.01157356272800003
-    },
-    {
-      "run": "20261015_020739",
-      "test": 14,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.09177203855899985
+      "pnl_sol": 0.0
     }
   ],
   "callouts": {
     "state": "connected",
     "accepted_total": 7084,
-    "last_capture_epoch": 1792559939.5563703,
+    "last_capture_epoch": 1792559954.5843978,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -164,7 +108,7 @@
   },
   "brain_memory": {
     "trade_count": 1451,
-    "episode_count": 2509,
+    "episode_count": 2510,
     "matched_trade_count": 7,
     "lesson_count": 2,
     "cost_model": "jupiter-min-quote-cushion-v1",
@@ -187,6 +131,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T05:19:06.397214+00:00",
+  "service_health_checked_at_utc": "2026-10-21T05:19:24.988896+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
