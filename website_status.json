@@ -1,18 +1,18 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-21T05:28:45.858702+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T05:29:00.386846+00:00",
+  "updated_at_utc": "2026-10-21T05:28:50.671435+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T05:29:15.152351+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "stopping",
-  "status_text": "Draining open paper positions before pause",
+  "state": "paused",
+  "status_text": "Paper research paused: owner bounded single-test cycle ended; continuous service held",
   "run_id": "20261021_012338",
   "test": 1,
   "test_limit": 1,
-  "completed_tests": 0,
+  "completed_tests": 1,
   "policy_role": "challenger",
   "trades": 2,
   "wins": 2,
@@ -20,7 +20,7 @@
   "pnl_sol": 0.05782323399236744,
   "open_positions": 0,
   "feed_ok": false,
-  "feed_polls": 555,
+  "feed_polls": 564,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 15,
-    "sample_changes": 240,
+    "sample_changes": 243,
     "entry_confirmations": 126,
     "adaptive_arms": 6,
     "adaptive_rejects": 3,
@@ -86,7 +86,7 @@
   "callouts": {
     "state": "connected",
     "accepted_total": 7089,
-    "last_capture_epoch": 1792560539.5597413,
+    "last_capture_epoch": 1792560554.585757,
     "source": "visible Pump Hot and Latest callout cards",
     "native_api_connected": false,
     "paper_trial_current": true,
@@ -118,7 +118,7 @@
   "research_experiment": {
     "status": "probation",
     "pause_reason": null,
-    "net_sol": -0.5033178525770582,
+    "net_sol": -0.44549461858469075,
     "experiment_count": 5,
     "neural_weight_training": false
   },
@@ -131,6 +131,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T05:29:05.408857+00:00",
+  "service_health_checked_at_utc": "2026-10-21T05:29:18.912634+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
