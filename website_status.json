@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-21T05:25:59.321384+00:00",
-  "snapshot_generated_at_utc": "2026-10-21T05:26:01.640985+00:00",
+  "updated_at_utc": "2026-10-21T05:26:04.479418+00:00",
+  "snapshot_generated_at_utc": "2026-10-21T05:26:09.069421+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -20,7 +20,7 @@
   "pnl_sol": 0.0071332261486289905,
   "open_positions": 0,
   "feed_ok": false,
-  "feed_polls": 243,
+  "feed_polls": 254,
   "http_errors": 0,
   "discord_alive": true,
   "learner_alive": false,
@@ -35,7 +35,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 10,
-    "sample_changes": 109,
+    "sample_changes": 110,
     "entry_confirmations": 21,
     "adaptive_arms": 1,
     "adaptive_rejects": 0,
@@ -163,10 +163,10 @@
     "separate_from_main_trader": true
   },
   "brain_memory": {
-    "trade_count": 1451,
+    "trade_count": 1452,
     "episode_count": 2510,
-    "matched_trade_count": 7,
-    "lesson_count": 2,
+    "matched_trade_count": 1293,
+    "lesson_count": 8,
     "cost_model": "jupiter-min-quote-cushion-v1",
     "evidence_current": true,
     "read_current_run": false
@@ -187,6 +187,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-21T05:26:07.318985+00:00",
+  "service_health_checked_at_utc": "2026-10-21T05:26:15.695773+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
