@@ -1,31 +1,31 @@
 {
   "schema_version": 3,
-  "updated_at_utc": "2026-10-27T02:36:42.929774+00:00",
-  "snapshot_generated_at_utc": "2026-10-27T02:36:48.342070+00:00",
+  "updated_at_utc": "2026-10-27T02:37:13.042893+00:00",
+  "snapshot_generated_at_utc": "2026-10-27T02:37:20.360930+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
   "paper_only": true,
   "profitability_validated": false,
-  "state": "running",
-  "bounded_paper_test_active": true,
+  "state": "paused",
+  "bounded_paper_test_active": false,
   "continuous_restart_allowed": false,
-  "status_text": "Owner-bounded five-minute PAPER test; continuous trading held",
+  "status_text": "Paper research paused: owner bounded single-test cycle ended; continuous service held",
   "run_id": "20261026_223208",
   "test": 1,
   "test_limit": 1,
-  "completed_tests": 0,
+  "completed_tests": 1,
   "policy_role": "challenger",
   "trades": 0,
   "wins": 0,
   "losses": 0,
   "pnl_sol": 0.0,
   "open_positions": 0,
-  "feed_ok": true,
-  "feed_polls": 511,
+  "feed_ok": false,
+  "feed_polls": 568,
   "http_errors": 1,
   "discord_alive": true,
-  "learner_alive": true,
+  "learner_alive": false,
   "obsidian_alive": true,
   "entry_policy": {
     "min_hold_seconds": 1.35,
@@ -37,7 +37,7 @@
   "paper_buy_sol": 1.0,
   "entry_funnel": {
     "watchlist_count": 5,
-    "sample_changes": 36,
+    "sample_changes": 41,
     "entry_confirmations": 13,
     "adaptive_arms": 1,
     "adaptive_rejects": 0,
@@ -47,11 +47,11 @@
   "workers": {
     "categories": 7,
     "evidence_current": true,
-    "python_read_current_run": false,
-    "python_read_test": null,
-    "measured_tests": null,
-    "python_read_at_utc": null,
-    "decision": null,
+    "python_read_current_run": true,
+    "python_read_test": 1,
+    "measured_tests": 1,
+    "python_read_at_utc": "2026-10-27T02:37:16.542856+00:00",
+    "decision": "hold_memory_warning_without_positive_candidate",
     "qwen_review_current_run": false,
     "qwen_state": "awaiting_current_run",
     "qwen_review_at_utc": null,
@@ -77,68 +77,12 @@
   },
   "recent_tests": [
     {
-      "run": "20261012_235837",
-      "test": 6,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.03809241200899982
-    },
-    {
-      "run": "20261012_235837",
-      "test": 7,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.017166570217000077
-    },
-    {
-      "run": "20261013_210723",
+      "run": "20261026_223208",
       "test": 1,
-      "trades": 1,
+      "trades": 0,
       "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.057856444499999826
-    },
-    {
-      "run": "20261015_020739",
-      "test": 3,
-      "trades": 1,
-      "wins": 1,
       "losses": 0,
-      "pnl_sol": 0.01403736707399994
-    },
-    {
-      "run": "20261015_020739",
-      "test": 6,
-      "trades": 1,
-      "wins": 1,
-      "losses": 0,
-      "pnl_sol": 0.01157356272800003
-    },
-    {
-      "run": "20261015_020739",
-      "test": 14,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.09177203855899985
-    },
-    {
-      "run": "20261021_012338",
-      "test": 1,
-      "trades": 2,
-      "wins": 2,
-      "losses": 0,
-      "pnl_sol": 0.05782323399236744
-    },
-    {
-      "run": "20261026_220802",
-      "test": 1,
-      "trades": 1,
-      "wins": 0,
-      "losses": 1,
-      "pnl_sol": -0.1665125926120512
+      "pnl_sol": 0.0
     }
   ],
   "callouts": {
@@ -166,12 +110,12 @@
   },
   "brain_memory": {
     "trade_count": 1454,
-    "episode_count": 2512,
+    "episode_count": 2513,
     "matched_trade_count": 1295,
     "lesson_count": 8,
     "cost_model": "jupiter-min-quote-cushion-v1",
     "evidence_current": true,
-    "read_current_run": false
+    "read_current_run": true
   },
   "research_experiment": {
     "status": "probation",
@@ -189,6 +133,6 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-10-27T02:36:50.946490+00:00",
+  "service_health_checked_at_utc": "2026-10-27T02:37:22.405046+00:00",
   "health_source": "laptop public status and current Jarvis heartbeat"
 }
