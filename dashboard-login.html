@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Dashboard Login | Zoupr Systems</title>
+<link rel="icon" type="image/png" href="/assets/z-logo.png">
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;font-family:Inter,"Segoe UI",Arial,sans-serif;
+background:radial-gradient(circle at 20% 0%,#4b142b 0%,transparent 48%),#080b0f;color:#f7eff2}
+header{padding:21px max(20px,calc((100vw - 1050px)/2));border-bottom:1px solid #42202f;display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}
+header .brand{letter-spacing:1.8px;font-weight:900}header .brand b{color:#ed6d8d}
+a{color:#f2b4c5;text-decoration:none}a:hover{text-decoration:underline}
+header a{font-size:12px}
+main{flex:1;display:grid;place-items:center;padding:28px 16px}
+.panel{max-width:500px;width:100%;padding:36px;background:linear-gradient(150deg,#1d111e,#111117);
+border:1px solid #643147;border-radius:17px;box-shadow:0 25px 85px #0009}
+.eyebrow{letter-spacing:2px;font-size:11px;color:#ed859f;font-weight:800}
+h1{font-size:32px;margin:13px 0 13px;line-height:1.1}
+p{color:#b7aab6;font-size:14px;line-height:1.65}
+.status{margin-top:22px;border:1px solid #674536;border-radius:9px;padding:12px 14px;color:#f3c797;
+background:#32251f;font-size:12px;font-weight:700}
+.access{display:block;width:100%;border-radius:9px;border:0;background:#a62b54;color:white;font-size:14px;
+font-weight:800;text-align:center;margin-top:22px;padding:14px;cursor:pointer}
+.access:disabled{background:#443240;color:#ab9eaa;cursor:not-allowed}
+.meta{font-size:12px;margin-top:18px;border-top:1px solid #47303f;padding-top:18px}
+footer{max-width:1050px;margin:0 auto;padding:20px;font-size:11px;color:#958a95;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="brand">ZOUPR SYSTEMS <b>// DEV VIEW</b></div><a href="/">Return to main dashboard</a></header>
+<main><section class="panel">
+<div class="eyebrow">PRIVATE RESEARCH TELEMETRY</div>
+<h1>Dashboard Login</h1>
+<p>Access the read-only Zoupr Systems Dev View, including paper copy-trading activity, token market charts, research progress and system health.</p>
+<div class="status" id="access-state" role="status">PRIVATE ACCESS PENDING · Secure remote gateway not connected yet</div>
+<button class="access" id="open-private-login" type="button" disabled>SECURE LOGIN NOT YET AVAILABLE</button>
+<p class="meta">Authorized viewers enter their personal Dev View access key on the secure login server. This website never stores or verifies those keys. No API keys, trading controls, or laptop remote access are exposed.</p>
+</section></main>
+<footer>PAPER RESEARCH — simulated trade results are not real-money returns. Private remote access will be enabled only after the authenticated HTTPS gateway is configured.</footer>
+<script>
+// Server location must be explicitly configured when authenticated HTTPS access is ready.
+// Never put a shared key, password hash, or API token in this public repository.
+const DEV_VIEW_HTTPS_URL = "";
+const button = document.getElementById("open-private-login");
+const status = document.getElementById("access-state");
+try {
+  const endpoint = new URL(DEV_VIEW_HTTPS_URL);
+  if(endpoint.protocol === "https:" && (endpoint.hostname === "zouprsystems.com" || endpoint.hostname.endsWith(".zouprsystems.com"))) {
+    button.disabled=false;
+    button.textContent="OPEN PRIVATE DEV VIEW LOGIN";
+    status.textContent="PRIVATE ACCESS READY · Access key required";
+    status.style.color="#82e4b7";
+    button.addEventListener("click",()=>{window.location.assign(endpoint.href)});
+  }
+} catch (_) { /* Remote access remains disabled. */ }
+</script>
+</body>
+</html>
