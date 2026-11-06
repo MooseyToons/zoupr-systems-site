@@ -1,9 +1,21 @@
 {
   "schema": 1,
   "paper_only": true,
-  "generated_epoch": 1793982140.4152117,
+  "generated_epoch": 1793982199.7381508,
   "source": "Read-only paper ledger extraction from authorized laptop",
   "events": [
+    {
+      "id": "72b382fcdf7d6d296a-BUY",
+      "epoch": 1793982185.7856195,
+      "action": "BUY",
+      "source": "COPY",
+      "symbol": "",
+      "mint": "FFC85Xuhi74sc4R4MV1KhSDuTqoHRdrjBubb7Gmvpump",
+      "size": 2.0,
+      "currency": "USD",
+      "paper_only": true,
+      "modeled_not_verified_fill": true
+    },
     {
       "id": "d8ef1176d53f28c019-SELL",
       "epoch": 1793936814.838374,
@@ -104,22 +116,22 @@
   "research_health": {
     "spider": {
       "state": "researching",
-      "updated_epoch": 1793982139.9905195,
+      "updated_epoch": 1793982197.274775,
       "last_observed_swap_epoch": 1793978405.4994938
     },
     "python": {
       "state": "running",
-      "updated_epoch": 1793982112.14569,
-      "roles": 8
+      "updated_epoch": 1793982158.4721916,
+      "roles": 9
     },
     "qwen": {
       "state": "running",
-      "updated_epoch": 1793982108.781896,
+      "updated_epoch": 1793982168.8003652,
       "cycle_result": "no_new_batch"
     },
     "grok": {
       "state": "XAI_CALL_LIMIT_REACHED",
-      "updated_epoch": 1793982138.2327147,
+      "updated_epoch": 1793982198.254106,
       "paper_only": true
     }
   },
