@@ -36,27 +36,49 @@ footer{max-width:1050px;margin:0 auto;padding:20px;font-size:11px;color:#958a95;
 <div class="eyebrow">PRIVATE RESEARCH TELEMETRY</div>
 <h1>Dashboard Login</h1>
 <p>Access the read-only Zoupr Systems Dev View, including paper copy-trading activity, token market charts, research progress and system health.</p>
-<div class="status" id="access-state" role="status">PRIVATE ACCESS PENDING · Secure remote gateway not connected yet</div>
-<button class="access" id="open-private-login" type="button" disabled>SECURE LOGIN NOT YET AVAILABLE</button>
+<div class="status" id="access-state" role="status">SECURE TEST CONNECTING · Checking private gateway availability</div>
+<button class="access" id="open-private-login" type="button" disabled>CHECKING SECURE TEST CONNECTION</button>
 <p class="meta">Authorized viewers enter their personal Dev View access key on the secure login server. This website never stores or verifies those keys. No API keys, trading controls, or laptop remote access are exposed.</p>
 </section></main>
-<footer>PAPER RESEARCH — simulated trade results are not real-money returns. Private remote access will be enabled only after the authenticated HTTPS gateway is configured.</footer>
+<footer>PAPER RESEARCH — simulated trade results are not real-money returns. This is an owner-only temporary HTTPS sign-in test. Permanent investor access is not configured yet.</footer>
 <script>
-// Server location must be explicitly configured when authenticated HTTPS access is ready.
-// Never put a shared key, password hash, or API token in this public repository.
-const DEV_VIEW_HTTPS_URL = "";
+// Testing-only Cloudflare Quick Tunnel. The real key is verified on the laptop.
+// The temporary address is NOT investor-ready and may change at any restart.
+// Never put keys, password hashes or API tokens in this public repository.
+const DEV_VIEW_HTTPS_URL = "https://combination-pathology-stuff-presented.trycloudflare.com/";
+const APPROVED_TEST_HOST = "combination-pathology-stuff-presented.trycloudflare.com";
 const button = document.getElementById("open-private-login");
 const status = document.getElementById("access-state");
-try {
-  const endpoint = new URL(DEV_VIEW_HTTPS_URL);
-  if(endpoint.protocol === "https:" && (endpoint.hostname === "zouprsystems.com" || endpoint.hostname.endsWith(".zouprsystems.com"))) {
-    button.disabled=false;
-    button.textContent="OPEN PRIVATE DEV VIEW LOGIN";
-    status.textContent="PRIVATE ACCESS READY · Access key required";
-    status.style.color="#82e4b7";
-    button.addEventListener("click",()=>{window.location.assign(endpoint.href)});
+(async () => {
+  try {
+    const endpoint = new URL(DEV_VIEW_HTTPS_URL);
+    if (endpoint.protocol !== "https:" || endpoint.hostname !== APPROVED_TEST_HOST) {
+      throw Error("Unapproved remote login address");
+    }
+    // Check the LOGIN gateway only, not the unrestricted internal Dev View.
+    const response = await fetch(new URL("/health", endpoint).href, {
+      method: "GET", cache: "no-store", mode: "cors", credentials: "omit"
+    });
+    if (!response.ok) throw Error("Private gateway unavailable");
+    const result = await response.json();
+    if (result.service !== "dev-view-auth" || result.ready !== true) {
+      throw Error("Private gateway not ready");
+    }
+    button.disabled = false;
+    button.textContent = "TEST PRIVATE LOGIN — TEMPORARY";
+    status.textContent = "SECURE TEST ACCESS AVAILABLE · Not a permanent investor link";
+    status.style.color = "#82e4b7";
+    status.style.background = "#173027";
+    status.style.borderColor = "#30674c";
+    button.addEventListener("click", () => window.location.assign(endpoint.href));
+  } catch (_) {
+    // Fail closed. No public workaround and no private dashboard exposure.
+    button.disabled = true;
+    button.textContent = "TEST LOGIN CURRENTLY UNAVAILABLE";
+    status.textContent = "TEMPORARY TEST TUNNEL OFFLINE · Private dashboard remains protected";
+    status.style.color = "#f3c797";
   }
-} catch (_) { /* Remote access remains disabled. */ }
+})();
 </script>
 </body>
 </html>
