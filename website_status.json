@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "updated_at_utc": "2026-11-05T11:22:10.674315+00:00",
-  "snapshot_generated_at_utc": "2026-11-08T16:17:19.382153+00:00",
+  "snapshot_generated_at_utc": "2026-11-08T16:18:18.113863+00:00",
   "bot_version": "40.7.46",
   "build_label": "V40.7.46 Aggressive Paper Research",
   "mode": "paper",
@@ -133,6 +133,39 @@
   "risk_zones": [],
   "latest_change": "October 13: audited historical position quarantine; visible Pump Hot/Latest callout tracking; brain retrieves the active cost model; Jarvis DM support with owner-only developer controls. Learning tests bounded settings against forward paper outcomes.",
   "source": "Fresh laptop paper heartbeat, completed-test ledger and categorized worker receipts",
-  "service_health_checked_at_utc": "2026-11-08T16:17:20.728170+00:00",
-  "health_source": "laptop public status and current Jarvis heartbeat"
+  "service_health_checked_at_utc": "2026-11-08T16:18:20.104718+00:00",
+  "health_source": "laptop public status and current Jarvis heartbeat",
+  "research_services": {
+    "independent_ledgers": {
+      "state": "PAPER_RUNNING",
+      "fresh": true,
+      "paper_only": true
+    },
+    "zoupr_jr": {
+      "state": "JR_PAPER_LAB_RUNNING",
+      "fresh": false,
+      "paper_only": true
+    },
+    "grok_paper": {
+      "state": "PAPER_RESEARCH_MONITORING",
+      "fresh": true,
+      "paper_only": true
+    },
+    "starnet_paper": {
+      "state": "PAPER_TRADING_OPEN",
+      "fresh": true,
+      "paper_only": true
+    },
+    "starnet_native": {
+      "state": "native_run_failed",
+      "fresh": true,
+      "paper_only": true
+    },
+    "jr_brain_sync": {
+      "state": "SYNCED",
+      "fresh": true,
+      "paper_only": true
+    }
+  },
+  "research_is_not_main_trader": true
 }
