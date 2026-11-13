@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "paper_only": true,
-  "generated_epoch": 1794545730.0178142,
+  "generated_epoch": 1794545796.0259643,
   "source": "Read-only paper ledger extraction from authorized laptop",
   "events": [
     {
@@ -80,17 +80,17 @@
   "research_health": {
     "spider": {
       "state": "researching",
-      "updated_epoch": 1794545729.9898546,
+      "updated_epoch": 1794545796.2603867,
       "last_observed_swap_epoch": 1794545191.5608544
     },
     "python": {
       "state": "running",
-      "updated_epoch": 1794545690.5863183,
+      "updated_epoch": 1794545780.416026,
       "roles": 9
     },
     "qwen": {
       "state": "running",
-      "updated_epoch": 1794545692.8552296,
+      "updated_epoch": 1794545752.906361,
       "cycle_result": "no_new_batch"
     },
     "grok": {
