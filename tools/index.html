@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Standalone tools and utilities made by Zoupr Systems.">
+  <meta name="theme-color" content="#0b090d">
+  <title>Tools | Zoupr Systems</title>
+  <link rel="icon" type="image/png" href="/assets/z-logo.png">
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #0b090d;
+      --surface: #161017;
+      --border: #402632;
+      --text: #f6edf1;
+      --muted: #bcaebc;
+      --accent: #f17890;
+      font-family: Inter, "Segoe UI", system-ui, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: var(--text);
+      background: radial-gradient(ellipse at 74% 0%, #371222 0%, transparent 48%), var(--background);
+      line-height: 1.5;
+    }
+    .shell { width: min(100%, 1180px); margin-inline: auto; padding-inline: clamp(18px, 4vw, 48px); }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 3px; }
+    .site-header { background: #0b090de8; border-bottom: 1px solid var(--border); }
+    .site-header .shell {
+      display: flex;
+      min-height: 76px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px 22px;
+      padding-block: 12px;
+    }
+    .brand, nav { display: flex; align-items: center; gap: 12px; }
+    .brand { font-size: .875rem; font-weight: 900; letter-spacing: .14em; }
+    .brand img { width: 40px; height: 40px; object-fit: contain; }
+    nav { gap: clamp(14px, 3vw, 28px); color: var(--muted); font-size: .875rem; font-weight: 700; }
+    nav a:hover { color: var(--text); }
+    nav [aria-current] { color: var(--accent); }
+    main { flex: 1; padding-block: clamp(54px, 10vw, 118px); }
+    h1 {
+      margin: 0;
+      font-size: clamp(3.5rem, 11vw, 7rem);
+      font-weight: 850;
+      letter-spacing: -.065em;
+      line-height: .98;
+    }
+    .intro { margin: 20px 0 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.125rem); }
+    .empty-state {
+      margin-top: clamp(36px, 6vw, 68px);
+      padding: clamp(22px, 4vw, 38px);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--surface);
+    }
+    .empty-state h2 { margin: 0; font-size: 1.25rem; letter-spacing: -.015em; }
+    .empty-state p { margin: 8px 0 0; color: var(--muted); }
+    footer { border-top: 1px solid var(--border); color: var(--muted); font-size: .875rem; }
+    footer .shell { padding-block: 22px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell">
+      <a class="brand" href="/"><img src="/assets/z-logo.png" alt="">ZOUPR SYSTEMS</a>
+      <nav aria-label="Tools navigation">
+        <a href="/">Research Lab</a>
+        <a href="/tools/" aria-current="page">Tools</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell">
+    <h1>Tools</h1>
+    <p class="intro">Standalone utilities built by Zoupr Systems.</p>
+    <section class="empty-state" aria-labelledby="release-status">
+      <h2 id="release-status">No tools published yet</h2>
+      <p>Tools will appear here as they’re released.</p>
+    </section>
+  </main>
+  <footer><div class="shell">© 2026 Zoupr Systems</div></footer>
+</body>
+</html>
