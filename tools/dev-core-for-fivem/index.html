@@ -12,6 +12,19 @@
     h1 { font-size: clamp(2.5rem, 8vw, 5.75rem); overflow-wrap: anywhere; }
     .crumb { display: inline-block; margin-bottom: 18px; color: var(--muted); font-weight: 700; }
     .crumb:hover { color: var(--text); }
+    .download { margin-top: 24px; }
+    .download-button {
+      display: inline-block;
+      padding: 11px 16px;
+      border: 1px solid #cb5870;
+      border-radius: 9px;
+      background: #932c47;
+      color: #fff;
+      font-weight: 750;
+    }
+    .download-button:hover { background: #ad3856; }
+    .download-details { display: inline-block; margin: 8px 10px; color: var(--muted); font-size: .875rem; }
+    .download .license { margin-top: 10px; }
     .plans { margin-top: 40px; }
     .plans h2 { margin: 0 0 14px; font-size: 1.25rem; }
     .plans-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
@@ -41,6 +54,11 @@
     <a class="crumb" href="/tools/">Back to Tools</a>
     <h1>DevCore For FiveM</h1>
     <p class="intro">A Windows toolkit for building, organizing, and validating FiveM resources.</p>
+    <div class="download">
+      <a class="download-button" href="https://github.com/MooseyToons/zoupr-systems-site/releases/download/devcore-first-release/DevCore.exe">Download for Windows</a>
+      <span class="download-details">64-bit Windows · 46 MB</span>
+      <p class="license">Open DevCore and copy <strong>Your Machine ID</strong> from the activation screen.</p>
+    </div>
     <section class="plans" aria-labelledby="plans-heading">
       <h2 id="plans-heading">License plans</h2>
       <div class="plans-grid">
