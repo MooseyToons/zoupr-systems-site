@@ -1,9 +1,33 @@
 {
   "schema": 1,
   "paper_only": true,
-  "generated_epoch": 1795855824.3696191,
+  "generated_epoch": 1795855888.6067927,
   "source": "Read-only paper ledger extraction from authorized laptop",
   "events": [
+    {
+      "id": "8a4ccb68d63321e07b-SELL",
+      "epoch": 1795855882.5644915,
+      "action": "SELL",
+      "source": "COPY",
+      "symbol": "",
+      "mint": "FZ1kgjm63ZFqYm6uYmRGNyHFRiGzxEzfnBeFCDZDpump",
+      "size": 2.0,
+      "currency": "USD",
+      "paper_only": true,
+      "modeled_not_verified_fill": true
+    },
+    {
+      "id": "8a4ccb68d63321e07b-BUY",
+      "epoch": 1795855853.810035,
+      "action": "BUY",
+      "source": "COPY",
+      "symbol": "",
+      "mint": "FZ1kgjm63ZFqYm6uYmRGNyHFRiGzxEzfnBeFCDZDpump",
+      "size": 2.0,
+      "currency": "USD",
+      "paper_only": true,
+      "modeled_not_verified_fill": true
+    },
     {
       "id": "6a025224cd6ba068b1-SELL",
       "epoch": 1795849404.7405922,
@@ -75,46 +99,22 @@
       "currency": "USD",
       "paper_only": true,
       "modeled_not_verified_fill": true
-    },
-    {
-      "id": "ea3624cdc08c499396-SELL",
-      "epoch": 1795769487.7728343,
-      "action": "SELL",
-      "source": "COPY",
-      "symbol": "",
-      "mint": "CsFZwAJKcYryu6hj8bTVCY2UkHVT4AJNhwizVPRXpump",
-      "size": 2.0,
-      "currency": "USD",
-      "paper_only": true,
-      "modeled_not_verified_fill": true
-    },
-    {
-      "id": "ea3624cdc08c499396-BUY",
-      "epoch": 1795769460.5409343,
-      "action": "BUY",
-      "source": "COPY",
-      "symbol": "",
-      "mint": "CsFZwAJKcYryu6hj8bTVCY2UkHVT4AJNhwizVPRXpump",
-      "size": 2.0,
-      "currency": "USD",
-      "paper_only": true,
-      "modeled_not_verified_fill": true
     }
   ],
   "research_health": {
     "spider": {
       "state": "researching",
-      "updated_epoch": 1795855822.605379,
+      "updated_epoch": 1795855888.9567506,
       "last_observed_swap_epoch": 1794778922.9102976
     },
     "python": {
       "state": "running",
-      "updated_epoch": 1795855739.5471966,
+      "updated_epoch": 1795855829.80858,
       "roles": 9
     },
     "qwen": {
       "state": "running",
-      "updated_epoch": 1795855777.5453806,
+      "updated_epoch": 1795855837.5801284,
       "cycle_result": "no_new_batch"
     },
     "grok": {
